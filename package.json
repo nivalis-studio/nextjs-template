@@ -1,0 +1,52 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@8.6.5",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . -c ./eslint.cli.js --cache",
+    "lint:fix": "eslint . -c ./eslint.cli.js --fix",
+    "ts": "tsc",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "1.0.2",
+    "@vercel/edge-config": "0.4.1",
+    "class-variance-authority": "0.7.0",
+    "clsx": "2.0.0",
+    "lucide-react": "0.292.0",
+    "next": "14.0.1",
+    "postcss": "8.4.31",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "server-only": "0.0.1"
+  },
+  "devDependencies": {
+    "@nivalis/eslint-config": "^1.0.0",
+    "@nivalis/prettier-config": "^1.0.0",
+    "@tailwindcss/typography": "0.5.10",
+    "@types/node": "^18.18.8",
+    "@types/react": "^18.2.35",
+    "@types/react-dom": "^18.2.14",
+    "autoprefixer": "10.4.16",
+    "eslint": "^8.52.0",
+    "husky": "8.0.3",
+    "lint-staged": "15.0.2",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "tailwind-merge": "2.0.0",
+    "tailwindcss": "3.3.5",
+    "tailwindcss-animate": "1.0.7",
+    "tailwindcss-radix": "2.8.0",
+    "turbo": "1.10.16",
+    "typescript": "5.2.2"
+  },
+  "lint-staged": {
+    "*": "eslint -c ./eslint.cli.js --quiet --fix"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "[typescriptreact][typescript][javascript][javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.experimental.useFlatConfig": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}
