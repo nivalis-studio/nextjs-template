@@ -15,38 +15,38 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@nivalis/eslint-config": "1.4.0",
+    "@nivalis/eslint-config": "1.7.0",
     "@nivalis/prettier-config": "3.1.0",
     "@radix-ui/react-slot": "1.0.2",
     "@vercel/edge-config": "0.4.1",
     "class-variance-authority": "0.7.0",
     "clsx": "2.0.0",
-    "lucide-react": "0.292.0",
+    "lucide-react": "0.294.0",
     "next": "14.0.3",
-    "postcss": "8.4.31",
+    "postcss": "8.4.32",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "server-only": "0.0.1"
   },
   "devDependencies": {
-    "@nivalis/eslint-config": "1.4.0",
+    "@nivalis/eslint-config": "1.7.0",
     "@nivalis/prettier-config": "3.1.0",
     "@tailwindcss/typography": "0.5.10",
-    "@types/node": "^18.18.10",
-    "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15",
+    "@types/node": "^20.10.2",
+    "@types/react": "^18.2.41",
+    "@types/react-dom": "^18.2.17",
     "autoprefixer": "10.4.16",
-    "eslint": "^8.54.0",
+    "eslint": "^8.55.0",
     "husky": "8.0.3",
     "lint-staged": "15.1.0",
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
-    "tailwind-merge": "2.0.0",
+    "tailwind-merge": "2.1.0",
     "tailwindcss": "3.3.5",
     "tailwindcss-animate": "1.0.7",
     "tailwindcss-radix": "2.8.0",
     "turbo": "1.10.16",
-    "typescript": "5.2.2"
+    "typescript": "5.3.2"
   },
   "lint-staged": {
     "*": "eslint --quiet --fix"
