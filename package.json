@@ -15,8 +15,6 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@nivalis/eslint-config": "1.7.0",
-    "@nivalis/prettier-config": "3.1.0",
     "@radix-ui/react-slot": "1.0.2",
     "@vercel/edge-config": "0.4.1",
     "class-variance-authority": "0.7.0",
@@ -29,8 +27,8 @@
     "server-only": "0.0.1"
   },
   "devDependencies": {
-    "@nivalis/eslint-config": "1.7.0",
-    "@nivalis/prettier-config": "3.1.0",
+    "@nivalis/eslint-config": "1.8.0",
+    "@nivalis/prettier-config": "3.1.1",
     "@tailwindcss/typography": "0.5.10",
     "@types/node": "^20.10.2",
     "@types/react": "^18.2.41",
