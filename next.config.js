@@ -42,12 +42,25 @@ const nextConfig = {
 		},
 	},
 	headers() {
-		return [
+		const headers = [
 			{
 				headers: securityHeaders,
 				source: '/(.*)',
 			},
 		];
+		// eslint-disable-next-line no-process-env
+		if (process.env.NEXT_PUBLIC_VERCEL_ENV === 'preview') {
+			headers.push({
+				headers: [
+					{
+						key: 'X-Robots-Tag',
+						value: 'noindex',
+					},
+				],
+				source: '/(.*)',
+			});
+		}
+		return headers;
 	},
 	images: {
 		domains: ['cdn.shopify.com'],
