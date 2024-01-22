@@ -1,6 +1,6 @@
 import animatePlugin from 'tailwindcss-animate';
 import radixPlugin from 'tailwindcss-radix';
-import defaultTheme from 'tailwindcss/defaultTheme.js';
+import {fontFamily} from 'tailwindcss/defaultTheme.js';
 import typographyPlugin from '@tailwindcss/typography';
 import plugin from 'tailwindcss/plugin';
 import type {Config} from 'tailwindcss';
@@ -62,6 +62,7 @@ export default {
 					foreground: 'hsl(var(--accent-foreground))',
 				},
 				background: 'hsl(var(--background))',
+				black: '#191919',
 				border: 'hsl(var(--border))',
 				card: {
 					DEFAULT: 'hsl(var(--card))',
@@ -101,9 +102,9 @@ export default {
 				},
 			},
 			fontFamily: {
-				inter: ['var(--font-inter)', 'sans-serif'],
-				poppins: ['var(--font-poppins)', 'sans-serif'],
-				sans: ['var(--font-inter)', ...defaultTheme.fontFamily.sans],
+				inter: ['var(--font-inter)', ...fontFamily.sans],
+				poppins: ['var(--font-poppins)', ...fontFamily.sans],
+				sans: ['var(--font-inter)', ...fontFamily.sans],
 			},
 			keyframes: {
 				'accordion-down': {
@@ -114,6 +115,9 @@ export default {
 					from: {height: 'var(--radix-accordion-content-height)'},
 					to: {height: '0'},
 				},
+			},
+			transitionTimingFunction: {
+				easeInOutQuart: 'cubic-bezier(0.77, 0, 0.175, 1)',
 			},
 		},
 	},
