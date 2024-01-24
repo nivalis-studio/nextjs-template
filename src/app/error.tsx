@@ -9,7 +9,7 @@ const ErrorPage = ({error}: {readonly error: Error}) => {
 	}, [error]);
 
 	return (
-		<div className='flex h-full min-h-[50vh] w-full items-center justify-center text-center text-xl font-medium'>
+		<div className='flex size-full min-h-[50vh] items-center justify-center text-center text-xl font-medium'>
 			<p>Oh no, something went wrong... maybe refresh?</p>
 		</div>
 	);

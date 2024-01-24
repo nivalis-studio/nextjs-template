@@ -40,7 +40,7 @@ const SelectTrigger = forwardRef<
 	>
 		{children}
 		<Icon asChild>
-			<ChevronDown className='h-4 w-4 opacity-50' />
+			<ChevronDown className='size-4 opacity-50' />
 		</Icon>
 	</Trigger>
 ));
@@ -59,7 +59,7 @@ const SelectScrollUpButton = forwardRef<
 		)}
 		{...props}
 	>
-		<ChevronUp className='h-4 w-4' />
+		<ChevronUp className='size-4' />
 	</ScrollUpButton>
 ));
 
@@ -77,7 +77,7 @@ const SelectScrollDownButton = forwardRef<
 		)}
 		{...props}
 	>
-		<ChevronDown className='h-4 w-4' />
+		<ChevronDown className='size-4' />
 	</ScrollDownButton>
 ));
 
@@ -141,9 +141,9 @@ const SelectItem = forwardRef<
 		)}
 		{...props}
 	>
-		<span className='absolute left-2 flex h-3.5 w-3.5 items-center justify-center'>
+		<span className='absolute left-2 flex size-3.5 items-center justify-center'>
 			<ItemIndicator>
-				<Check className='h-4 w-4' />
+				<Check className='size-4' />
 			</ItemIndicator>
 		</span>
 
