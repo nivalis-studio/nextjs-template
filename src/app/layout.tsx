@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 		index: true,
 	},
 	title: {
-		'default': title,
+		default: title,
 		template: `%s | ${title}`,
 	},
 };
