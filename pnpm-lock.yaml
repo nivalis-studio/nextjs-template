@@ -38,6 +38,9 @@ dependencies:
   '@radix-ui/react-tooltip':
     specifier: 1.0.7
     version: 1.0.7(@types/react-dom@18.2.19)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)
+  '@total-typescript/ts-reset':
+    specifier: 0.5.1
+    version: 0.5.1
   '@vercel/edge-config':
     specifier: 0.4.1
     version: 0.4.1
@@ -71,20 +74,20 @@ dependencies:
   sonner:
     specifier: 1.4.0
     version: 1.4.0(react-dom@18.2.0)(react@18.2.0)
+  tailwind-merge:
+    specifier: 2.2.1
+    version: 2.2.1
 
 devDependencies:
   '@nivalis/eslint-config':
-    specifier: 1.10.3
-    version: 1.10.3(@babel/core@7.23.5)(@types/node@20.11.16)(eslint@8.56.0)(graphql@16.8.1)(tailwindcss@3.4.1)(typescript@5.3.3)
+    specifier: 1.12.0
+    version: 1.12.0(@babel/core@7.23.5)(@types/node@20.11.16)(eslint@8.56.0)(graphql@16.8.1)(tailwindcss@3.4.1)(typescript@5.3.3)
   '@nivalis/prettier-config':
     specifier: 3.2.5
     version: 3.2.5
   '@tailwindcss/typography':
     specifier: 0.5.10
     version: 0.5.10(tailwindcss@3.4.1)
-  '@total-typescript/ts-reset':
-    specifier: 0.5.1
-    version: 0.5.1
   '@types/node':
     specifier: 20.11.16
     version: 20.11.16
@@ -112,9 +115,6 @@ devDependencies:
   prettier-plugin-tailwindcss:
     specifier: 0.5.11
     version: 0.5.11(prettier@3.2.5)
-  tailwind-merge:
-    specifier: 2.2.1
-    version: 2.2.1
   tailwindcss:
     specifier: 3.4.1
     version: 3.4.1
@@ -330,7 +330,6 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.0
-    dev: true
 
   /@babel/template@7.22.15:
     resolution: {integrity: sha512-QPErUVm4uyJa60rkI73qneDacvdvzxshT3kksGqlGWYdOTIUOwJ7RDUL8sGqslY1uXWSL6xMFKEXDS3ox2uF0w==}
@@ -858,11 +857,11 @@ packages:
     dev: false
     optional: true
 
-  /@nivalis/eslint-config@1.10.3(@babel/core@7.23.5)(@types/node@20.11.16)(eslint@8.56.0)(graphql@16.8.1)(tailwindcss@3.4.1)(typescript@5.3.3):
-    resolution: {integrity: sha512-mJtrFztXotcNquhF5nzVyHPPCRcCYnnIB+jzzBYpo8RPss5mp4N86NHB5Ec6NAwMum4/zsTk3Kx57a4dq3s/cw==}
+  /@nivalis/eslint-config@1.12.0(@babel/core@7.23.5)(@types/node@20.11.16)(eslint@8.56.0)(graphql@16.8.1)(tailwindcss@3.4.1)(typescript@5.3.3):
+    resolution: {integrity: sha512-6E1YM2GhtSJTKdUKy7wuPK2Zrb6l2boCcte9vFQ+cGsYppTy3L80ml4dyGoncpsz6xKIIhkjfLAhHmh0pdSYUg==}
     engines: {node: '>=18'}
     peerDependencies:
-      eslint: ^8.56.0
+      eslint: 8.56.0
     dependencies:
       '@graphql-eslint/eslint-plugin': 3.20.1(@babel/core@7.23.5)(@types/node@20.11.16)(graphql@16.8.1)
       '@next/eslint-plugin-next': 14.1.0
@@ -884,6 +883,7 @@ packages:
       eslint-plugin-promise: 6.1.1(eslint@8.56.0)
       eslint-plugin-react: 7.33.2(eslint@8.56.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
+      eslint-plugin-react-refresh: 0.4.5(eslint@8.56.0)
       eslint-plugin-sort-keys: 2.3.5
       eslint-plugin-tailwindcss: 3.14.2(tailwindcss@3.4.1)
       eslint-plugin-unicorn: 51.0.1(eslint@8.56.0)
@@ -1779,7 +1779,7 @@ packages:
 
   /@total-typescript/ts-reset@0.5.1:
     resolution: {integrity: sha512-AqlrT8YA1o7Ff5wPfMOL0pvL+1X+sw60NN6CcOCqs658emD6RfiXhF7Gu9QcfKBH7ELY2nInLhKSCWVoNL70MQ==}
-    dev: true
+    dev: false
 
   /@types/json-schema@7.0.12:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
@@ -2922,6 +2922,14 @@ packages:
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+    dependencies:
+      eslint: 8.56.0
+    dev: true
+
+  /eslint-plugin-react-refresh@0.4.5(eslint@8.56.0):
+    resolution: {integrity: sha512-D53FYKJa+fDmZMtriODxvhwrO+IOqrxoEo21gMA0sjHdU6dPVH4OhyFip9ypl8HOF5RV5KdTo+rBQLvnY2cO8w==}
+    peerDependencies:
+      eslint: '>=7'
     dependencies:
       eslint: 8.56.0
     dev: true
@@ -5271,7 +5279,7 @@ packages:
     resolution: {integrity: sha512-o+2GTLkthfa5YUt4JxPfzMIpQzZ3adD1vLVkvKE1Twl9UAhGsEbIZhHHZVRttyW177S8PDJI3bTQNaebyofK3Q==}
     dependencies:
       '@babel/runtime': 7.23.8
-    dev: true
+    dev: false
 
   /tailwindcss-animate@1.0.7(tailwindcss@3.4.1):
     resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}

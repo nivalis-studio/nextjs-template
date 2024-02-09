@@ -13,7 +13,7 @@ import {
 	Trigger,
 } from '@radix-ui/react-alert-dialog';
 import {cn} from '@/utils/classnames';
-import {buttonVariants} from '@/components/ui/button';
+import {buttonVariants} from '@/components/ui/button/variants';
 import type {ComponentPropsWithoutRef, ElementRef, HTMLAttributes} from 'react';
 
 const AlertDialog = Root;
