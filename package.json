@@ -12,7 +12,7 @@
     "lint": "eslint --cache .",
     "lint:fix": "eslint --fix .",
     "ts": "tsc",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "@nivalis/std": "0.8.0",
