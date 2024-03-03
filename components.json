@@ -7,10 +7,11 @@
   "rsc": true,
   "style": "default",
   "tailwind": {
-    "baseColor": "gray",
+    "baseColor": "neutral",
     "config": "tailwind.config.ts",
     "css": "src/styles/globals.css",
-    "cssVariables": false
+    "cssVariables": true,
+    "prefix": ""
   },
   "tsx": true
 }
