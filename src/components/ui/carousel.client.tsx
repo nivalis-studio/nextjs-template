@@ -155,10 +155,10 @@ const Carousel = forwardRef<
       <CarouselContext.Provider value={contextValue}>
         <div
           ref={ref}
-          onKeyDownCapture={handleKeyDown}
           className={cn('relative', className)}
           role='region'
           aria-roledescription='carousel'
+          onKeyDownCapture={handleKeyDown}
           {...props}
         >
           {children}
@@ -226,6 +226,7 @@ const CarouselPrevious = forwardRef<
       ref={ref}
       variant={variant}
       size={size}
+      disabled={!canScrollPrev}
       className={cn(
         'absolute  size-8 rounded-full',
         orientation === 'horizontal'
@@ -233,7 +234,6 @@ const CarouselPrevious = forwardRef<
           : '-top-12 left-1/2 -translate-x-1/2 rotate-90',
         className,
       )}
-      disabled={!canScrollPrev}
       onClick={scrollPrev}
       {...props}
     >
@@ -256,6 +256,7 @@ const CarouselNext = forwardRef<
       ref={ref}
       variant={variant}
       size={size}
+      disabled={!canScrollNext}
       className={cn(
         'absolute size-8 rounded-full',
         orientation === 'horizontal'
@@ -263,7 +264,6 @@ const CarouselNext = forwardRef<
           : '-bottom-12 left-1/2 -translate-x-1/2 rotate-90',
         className,
       )}
-      disabled={!canScrollNext}
       onClick={scrollNext}
       {...props}
     >
