@@ -60,6 +60,7 @@ const nextConfig = {
         source: '/(.*)',
       });
     }
+
     return headers;
   },
   images: {
