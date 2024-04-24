@@ -7,11 +7,8 @@ import type { Config } from 'tailwindcss';
 
 const config = {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
-  darkMode: ['class'],
-  future: {
-    hoverOnlyWhenSupported: true,
-  },
-  prefix: '',
+  darkMode: 'selector',
+  future: { hoverOnlyWhenSupported: true },
   theme: {
     container: {
       center: true,
