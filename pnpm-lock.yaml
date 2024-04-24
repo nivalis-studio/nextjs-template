@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@nivalis/std':
-        specifier: 0.9.0
-        version: 0.9.0(typescript@5.4.5)
+        specifier: 0.10.0
+        version: 0.10.0(typescript@5.4.5)
       '@radix-ui/react-accordion':
         specifier: 1.1.2
         version: 1.1.2(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -370,8 +370,8 @@ packages:
   '@nivalis/prettier-config@3.2.6-beta.0':
     resolution: {integrity: sha512-xNUFxMZnOO3EFzeoSz/6j6KyCWIZFbFSkVQTxi18fuvYz2eysVOglgNsYYxyduRfiZ0+5Z0UtNrFuXt5heVsbg==}
 
-  '@nivalis/std@0.9.0':
-    resolution: {integrity: sha512-O3pBeOKHkrS+YHpHUSo74a5wqfOGDraRj+DA5QbwD8HE9JIEr07ZKtcvNlDEydwMkJi2Nb13c5B+gCNrQzQ5yw==}
+  '@nivalis/std@0.10.0':
+    resolution: {integrity: sha512-zPKZBfS1bkQ4qRoIpIGX8MC6mmuBTm2dLzrdXGIRyzps2sKgedb5OppQJVNs+Q65fPDQnKWgoTjzpSARg0B+ag==}
     peerDependencies:
       typescript: ^5.0.0
 
@@ -3387,7 +3387,7 @@ snapshots:
     dependencies:
       prettier: 3.2.5
 
-  '@nivalis/std@0.9.0(typescript@5.4.5)':
+  '@nivalis/std@0.10.0(typescript@5.4.5)':
     dependencies:
       typescript: 5.4.5
 
