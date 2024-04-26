@@ -64,7 +64,12 @@ const nextConfig = {
     return headers;
   },
   images: {
-    domains: ['cdn.shopify.com'],
+    remotePatterns: [
+      { hostname: 'cdn.shopify.com' },
+      { hostname: 'res.cloudinary.com' },
+      { hostname: 'images.unsplash.com' },
+      { hostname: 'plus.unsplash.com' },
+    ],
     formats: ['image/avif', 'image/webp'],
   },
   poweredByHeader: false,
