@@ -1,5 +1,3 @@
-import { get } from '@vercel/edge-config';
-
 // https://nextjs.org/docs/advanced-features/security-headers
 const ContentSecurityPolicy = `
     default-src 'self';
@@ -33,8 +31,18 @@ const securityHeaders = [
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
+  poweredByHeader: false,
+  reactStrictMode: true,
+  swcMinify: true,
+  eslint: { ignoreDuringBuilds: true },
+  images: {
+    remotePatterns: [
+      { hostname: 'cdn.shopify.com' },
+      { hostname: 'res.cloudinary.com' },
+      { hostname: 'images.unsplash.com' },
+      { hostname: 'plus.unsplash.com' },
+    ],
+    formats: ['image/avif', 'image/webp'],
   },
   experimental: {
     outputFileTracingExcludes: {
@@ -63,25 +71,14 @@ const nextConfig = {
 
     return headers;
   },
-  images: {
-    remotePatterns: [
-      { hostname: 'cdn.shopify.com' },
-      { hostname: 'res.cloudinary.com' },
-      { hostname: 'images.unsplash.com' },
-      { hostname: 'plus.unsplash.com' },
-    ],
-    formats: ['image/avif', 'image/webp'],
-  },
-  poweredByHeader: false,
-  reactStrictMode: true,
-  redirects() {
-    try {
-      return get('redirects');
-    } catch {
-      return [];
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      // eslint-disable-next-line no-param-reassign
+      config.ignoreWarnings = [{ module: /opentelemetry/ }];
     }
+
+    return config;
   },
-  swcMinify: true,
 };
 
 export default nextConfig;
