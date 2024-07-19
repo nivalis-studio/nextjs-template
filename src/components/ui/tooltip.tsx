@@ -1,12 +1,7 @@
 'use client';
 
 import { forwardRef } from 'react';
-import {
-  Content,
-  Root as Tooltip,
-  Provider as TooltipProvider,
-  Trigger as TooltipTrigger,
-} from '@radix-ui/react-tooltip';
+import { Content } from '@radix-ui/react-tooltip';
 import { cn } from '@/utils/classnames';
 import type { ComponentPropsWithoutRef, ElementRef } from 'react';
 
@@ -27,4 +22,10 @@ const TooltipContent = forwardRef<
 
 TooltipContent.displayName = Content.displayName;
 
-export { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider };
+export { TooltipContent };
+
+export {
+  Root as Tooltip,
+  Trigger as TooltipTrigger,
+  Provider as TooltipProvider,
+} from '@radix-ui/react-tooltip';

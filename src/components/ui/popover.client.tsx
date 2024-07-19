@@ -1,12 +1,7 @@
 'use client';
 
 import { forwardRef } from 'react';
-import {
-  Content,
-  Root as Popover,
-  Trigger as PopoverTrigger,
-  Portal,
-} from '@radix-ui/react-popover';
+import { Content, Portal } from '@radix-ui/react-popover';
 import { cn } from '@/utils/classnames';
 import type { ComponentPropsWithoutRef, ElementRef } from 'react';
 
@@ -30,4 +25,9 @@ const PopoverContent = forwardRef<
 
 PopoverContent.displayName = Content.displayName;
 
-export { Popover, PopoverTrigger, PopoverContent };
+export { PopoverContent };
+
+export {
+  Root as Popover,
+  Trigger as PopoverTrigger,
+} from '@radix-ui/react-popover';

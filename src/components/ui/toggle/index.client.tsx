@@ -20,4 +20,6 @@ const Toggle = forwardRef<
 
 Toggle.displayName = Root.displayName;
 
-export { Toggle, toggleVariants };
+export { Toggle };
+
+export { toggleVariants } from '@/components/ui/toggle/variants';
