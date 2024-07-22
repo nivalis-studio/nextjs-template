@@ -16,7 +16,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "ts": "tsc",
-    "prepare": "husky"
+    "prepare": "simple-git-hooks"
   },
   "dependencies": {
     "@nivalis/std": "0.20.0",
@@ -66,15 +66,18 @@
     "@types/react-dom": "18.3.0",
     "autoprefixer": "10.4.19",
     "eslint": "9.7.0",
-    "husky": "9.1.1",
     "lint-staged": "15.2.7",
     "prettier": "3.3.3",
     "prettier-plugin-tailwindcss": "0.6.5",
+    "simple-git-hooks": "2.11.1",
     "tailwindcss": "3.4.6",
     "tailwindcss-animate": "1.0.7",
     "tailwindcss-radix": "3.0.3",
     "turbo": "2.0.7",
     "typescript": "5.4.5"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
     "*": "eslint --quiet --fix"
