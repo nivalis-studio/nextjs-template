@@ -1,9 +1,11 @@
 'use client';
 
 import { forwardRef } from 'react';
-import { Content, List, Trigger } from '@radix-ui/react-tabs';
+import { Content, List, Root, Trigger } from '@radix-ui/react-tabs';
 import { cn } from '@/utils/classnames';
 import type { ComponentPropsWithoutRef, ElementRef } from 'react';
+
+const Tabs = Root;
 
 const TabsList = forwardRef<
   ElementRef<typeof List>,
@@ -53,6 +55,4 @@ const TabsContent = forwardRef<
 
 TabsContent.displayName = Content.displayName;
 
-export { TabsList, TabsTrigger, TabsContent };
-
-export { Root as Tabs } from '@radix-ui/react-tabs';
+export { Tabs, TabsList, TabsTrigger, TabsContent };

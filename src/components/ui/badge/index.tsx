@@ -3,9 +3,7 @@ import { badgeVariants } from '@/components/ui/badge/variants';
 import type { HTMLAttributes } from 'react';
 import type { VariantProps } from 'class-variance-authority';
 
-export type BadgeProps = {
-  [key: string]: unknown;
-} & HTMLAttributes<HTMLDivElement> &
+export type BadgeProps = HTMLAttributes<HTMLDivElement> &
   VariantProps<typeof badgeVariants>;
 
 const Badge = ({ className, variant, ...props }: BadgeProps) => (
