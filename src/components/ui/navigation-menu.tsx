@@ -14,6 +14,25 @@ import { ChevronDown } from 'lucide-react';
 import { cn } from '@/utils/classnames';
 import type { ComponentPropsWithoutRef, ElementRef } from 'react';
 
+const NavigationMenuViewport = forwardRef<
+  ElementRef<typeof Viewport>,
+  ComponentPropsWithoutRef<typeof Viewport>
+>(({ className, ...props }, ref) => (
+  <div className={cn('absolute left-0 top-full flex justify-center')}>
+    <Viewport
+      ref={ref}
+      // eslint-disable-next-line tailwindcss/no-custom-classname
+      className={cn(
+        'origin-top-center relative mt-1.5 h-[var(--radix-navigation-menu-viewport-height)] w-full overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90 md:w-[var(--radix-navigation-menu-viewport-width)]',
+        className,
+      )}
+      {...props}
+    />
+  </div>
+));
+
+NavigationMenuViewport.displayName = Viewport.displayName;
+
 const NavigationMenu = forwardRef<
   ElementRef<typeof Root>,
   ComponentPropsWithoutRef<typeof Root>
@@ -91,25 +110,6 @@ const NavigationMenuContent = forwardRef<
 NavigationMenuContent.displayName = Content.displayName;
 
 const NavigationMenuLink = Link;
-
-const NavigationMenuViewport = forwardRef<
-  ElementRef<typeof Viewport>,
-  ComponentPropsWithoutRef<typeof Viewport>
->(({ className, ...props }, ref) => (
-  <div className={cn('absolute left-0 top-full flex justify-center')}>
-    <Viewport
-      ref={ref}
-      // eslint-disable-next-line tailwindcss/no-custom-classname
-      className={cn(
-        'origin-top-center relative mt-1.5 h-[var(--radix-navigation-menu-viewport-height)] w-full overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90 md:w-[var(--radix-navigation-menu-viewport-width)]',
-        className,
-      )}
-      {...props}
-    />
-  </div>
-));
-
-NavigationMenuViewport.displayName = Viewport.displayName;
 
 const NavigationMenuIndicator = forwardRef<
   ElementRef<typeof Indicator>,

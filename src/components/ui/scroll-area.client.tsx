@@ -11,23 +11,6 @@ import {
 import { cn } from '@/utils/classnames';
 import type { ComponentPropsWithoutRef, ElementRef } from 'react';
 
-const ScrollArea = forwardRef<
-  ElementRef<typeof Root>,
-  ComponentPropsWithoutRef<typeof Root>
->(({ className, children, ...props }, ref) => (
-  <Root
-    ref={ref}
-    className={cn('relative overflow-hidden', className)}
-    {...props}
-  >
-    <Viewport className='size-full rounded-[inherit]'>{children}</Viewport>
-    <ScrollBar />
-    <Corner />
-  </Root>
-));
-
-ScrollArea.displayName = Root.displayName;
-
 const ScrollBar = forwardRef<
   ElementRef<typeof ScrollAreaScrollbar>,
   ComponentPropsWithoutRef<typeof ScrollAreaScrollbar>
@@ -50,5 +33,22 @@ const ScrollBar = forwardRef<
 ));
 
 ScrollBar.displayName = ScrollAreaScrollbar.displayName;
+
+const ScrollArea = forwardRef<
+  ElementRef<typeof Root>,
+  ComponentPropsWithoutRef<typeof Root>
+>(({ className, children, ...props }, ref) => (
+  <Root
+    ref={ref}
+    className={cn('relative overflow-hidden', className)}
+    {...props}
+  >
+    <Viewport className='size-full rounded-[inherit]'>{children}</Viewport>
+    <ScrollBar />
+    <Corner />
+  </Root>
+));
+
+ScrollArea.displayName = Root.displayName;
 
 export { ScrollArea, ScrollBar };
