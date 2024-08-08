@@ -71,14 +71,14 @@
     "zod": "3.23.8"
   },
   "devDependencies": {
-    "@nivalis/eslint-config": "3.1.0",
+    "@nivalis/eslint-config": "3.3.0",
     "@nivalis/prettier-config": "3.3.3",
-    "@tailwindcss/typography": "0.5.13",
+    "@tailwindcss/typography": "0.5.14",
     "@types/node": "20.14.11",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "autoprefixer": "10.4.19",
-    "eslint": "9.7.0",
+    "eslint": "9.8.0",
     "lint-staged": "15.2.7",
     "prettier": "3.3.3",
     "prettier-plugin-tailwindcss": "0.6.5",
