@@ -86,6 +86,7 @@ const config = {
     animatePlugin,
     radixPlugin,
     typographyPlugin,
+    // eslint-disable-next-line @typescript-eslint/unbound-method
     plugin(({ addUtilities }) => {
       addUtilities({
         '.no-scrollbar': {

@@ -5,18 +5,15 @@ import type { Metadata } from 'next';
 
 const title = 'Template';
 const description = 'Hello World';
-const url = 'http://localhost:3000';
 
 export const metadata: Metadata = {
   description,
-  metadataBase: new URL(url),
   openGraph: {
     description,
     locale: 'fr-FR',
     siteName: title,
     title,
     type: 'website',
-    url,
   },
   robots: {
     follow: true,
