@@ -1,23 +1,25 @@
 {
   "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": ["**/.env"],
+  "ui": "stream",
   "tasks": {
     "build": {
-      "outputs": [".next/**", "!.next/cache/**"]
+      "inputs": ["$TURBO_DEFAULT$", ".env"],
+      "dependsOn": ["^build"],
+      "outputs": [".next/**", "!.next/cache/**", "next-env.d.ts"]
     },
-    "debug": {
-      "cache": false,
-      "persistent": true
+    "start": {
+      "cache": false
     },
     "dev": {
+      "inputs": ["$TURBO_DEFAULT$", ".env"],
       "cache": false,
       "persistent": true
     },
     "lint": {},
     "lint:fix": {},
-    "start": {
-      "cache": false,
-      "persistent": true
-    },
-    "ts": {}
+    "ts": {
+      "outputs": ["node_modules/.cache/tsbuildinfo.json"]
+    }
   }
 }
