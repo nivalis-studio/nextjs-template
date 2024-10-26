@@ -3,7 +3,6 @@ const nextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   experimental: {
-    instrumentationHook: process.env.NODE_ENV === 'production',
     ppr: true,
     after: true,
   },
