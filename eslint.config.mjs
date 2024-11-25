@@ -4,7 +4,8 @@ export default nivalis({
   typescript: {
     configPath: './tsconfig.json',
   },
-  tailwindcss: {
-    configPath: './tailwind.config.ts',
-  },
+  tailwindcss: false,
+  // tailwindcss: {
+  //   configPath: './tailwind.config.ts',
+  // },
 });
