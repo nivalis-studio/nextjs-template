@@ -8,7 +8,6 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     ppr: true,
-    after: true,
   },
   images: {
     formats: ['image/avif', 'image/webp'],
