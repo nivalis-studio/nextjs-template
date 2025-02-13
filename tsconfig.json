@@ -1,5 +1,4 @@
 {
-  "display": "Next.js",
   "compilerOptions": {
     "target": "ES2024",
     "lib": [
