@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   experimental: {
-    ppr: true,
+    // ppr: true,
     serverMinification: true,
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
