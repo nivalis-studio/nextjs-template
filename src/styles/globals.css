@@ -24,8 +24,6 @@
 
 @theme {
   --ease-in-out-quart: cubic-bezier(0.76, 0, 0.24, 1);
-  --font-family-sans: var(--font-geist-sans), system-ui;
-  --font-family-mono: var(--font-geist-mono), system-ui;
 }
 
 @layer base {
@@ -40,7 +38,6 @@
     min-height: 100%;
     scroll-behavior: smooth;
     font-synthesis: none;
-    font-family: var(--font-family-mono);
     color: var(--color-foreground);
     background-color: var(--color-background);
     -webkit-font-smoothing: antialiased;
