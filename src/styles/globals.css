@@ -6,13 +6,6 @@
 
 :root {
   --radius: 0.6rem;
-  --color-foreground: oklch(21.34% 0 0);
-  --color-background: oklch(100% 0 0);
-}
-
-&:where(.dark, .dark *) {
-  --color-foreground: oklch(100% 0 0);
-  --color-background: oklch(21.34% 0 0);
 }
 
 @theme inline {
@@ -24,6 +17,18 @@
 
 @theme {
   --ease-in-out-quart: cubic-bezier(0.76, 0, 0.24, 1);
+
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui;
+  --font-inter: var(--font-inter), ui-sans-serif, system-ui;
+
+  --color-foreground: oklch(21.34% 0 0);
+  --color-background: oklch(100% 0 0);
+}
+
+&:where(.dark, .dark *) {
+  --color-foreground: oklch(100% 0 0);
+  --color-background: oklch(21.34% 0 0);
 }
 
 @layer base {

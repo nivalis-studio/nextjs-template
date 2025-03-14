@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: PropsWithChildren) => {
   return (
-    <html lang='en' className={cn('dark', fonts)}>
+    <html lang='en' className={cn('dark font-mono', fonts)}>
       <body className='isolate'>{children}</body>
     </html>
   );
