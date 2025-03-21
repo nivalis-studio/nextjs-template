@@ -10,8 +10,6 @@ const nextConfig: NextConfig = {
   experimental: {
     // ppr: true,
     serverMinification: true,
-    parallelServerBuildTraces: true,
-    parallelServerCompiles: true,
     // @see https://vercel.com/blog/how-we-optimized-package-imports-in-next-js
     optimizePackageImports: [
       '@radix-ui/react-accessible-icon',

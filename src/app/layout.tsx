@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://google.com'),
 };
 
-const RootLayout = ({ children }: PropsWithChildren) => {
+const Layout = ({ children }: PropsWithChildren) => {
   return (
     <html lang='en' className={cn('dark font-mono', fonts)}>
       <body className='isolate'>{children}</body>
@@ -18,4 +18,4 @@ const RootLayout = ({ children }: PropsWithChildren) => {
   );
 };
 
-export default RootLayout;
+export default Layout;
