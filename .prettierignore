@@ -1,24 +1,8 @@
-node_modules
-
-# Next.js & Vercel Directories
-.next
-.turbo
-.swc
-build
 public/build
+.gitignore
 
 # Files that should not be parsed
 CODEOWNERS
-
-# Outputs
-dist
-target
-compiled
-
-pnpm-lock.yaml
-
-.env
-.gitignore
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
@@ -27,10 +11,6 @@ pnpm-lock.yaml
 /.pnp
 .pnp.*
 .yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
 
 # testing
 /coverage
@@ -41,6 +21,9 @@ pnpm-lock.yaml
 
 # production
 /build
+/dist
+/target
+/compiled
 
 # misc
 .DS_Store
@@ -57,7 +40,12 @@ yarn-error.log*
 
 # vercel
 .vercel
+.turbo
+.swc
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# eslint
+.eslintcache

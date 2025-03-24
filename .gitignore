@@ -19,6 +19,9 @@
 
 # production
 /build
+/dist
+/target
+/compiled
 
 # misc
 .DS_Store
@@ -35,7 +38,12 @@ yarn-error.log*
 
 # vercel
 .vercel
+.turbo
+.swc
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# eslint
+.eslintcache
