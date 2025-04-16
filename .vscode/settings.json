@@ -14,9 +14,5 @@
     "jsonc"
   ],
   "prettier.enable": false,
-  "typescript.preferences.importModuleSpecifier": "non-relative",
-  "typescript.preferences.autoImportFileExcludePatterns": [
-    "@radix-ui/*",
-    "lucide-react"
-  ]
+  "typescript.preferences.importModuleSpecifier": "non-relative"
 }
