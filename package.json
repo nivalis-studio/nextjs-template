@@ -28,7 +28,8 @@
     "react-dom": "19.1.0",
     "server-only": "0.0.1",
     "tailwind-merge": "3.3.0",
-    "turbo": "2.5.3"
+    "turbo": "2.5.3",
+    "zod": "3.25.20"
   },
   "devDependencies": {
     "@commitlint/cli": "19.8.1",
@@ -38,7 +39,7 @@
     "@tailwindcss/postcss": "4.1.7",
     "@total-typescript/ts-reset": "0.6.1",
     "@types/node": "22.15.21",
-    "@types/react": "19.1.4",
+    "@types/react": "19.1.5",
     "@types/react-dom": "19.1.5",
     "eslint": "9.27.0",
     "lefthook": "1.11.13",
