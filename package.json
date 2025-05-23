@@ -34,7 +34,7 @@
   "devDependencies": {
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
-    "@nivalis/eslint-config": "5.1.11",
+    "@nivalis/eslint-config": "5.1.12",
     "@nivalis/prettier-config": "3.5.3",
     "@tailwindcss/postcss": "4.1.7",
     "@total-typescript/ts-reset": "0.6.1",

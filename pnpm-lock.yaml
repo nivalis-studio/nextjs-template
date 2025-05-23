@@ -52,8 +52,8 @@ importers:
         specifier: 19.8.1
         version: 19.8.1
       '@nivalis/eslint-config':
-        specifier: 5.1.11
-        version: 5.1.11(@types/eslint@9.6.1)(eslint@9.27.0(jiti@2.4.2))(prettier@3.5.3)(tailwindcss@4.1.7)(typescript@5.8.3)
+        specifier: 5.1.12
+        version: 5.1.12(@types/eslint@9.6.1)(eslint@9.27.0(jiti@2.4.2))(prettier@3.5.3)(tailwindcss@4.1.7)(typescript@5.8.3)
       '@nivalis/prettier-config':
         specifier: 3.5.3
         version: 3.5.3
@@ -552,8 +552,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@nivalis/eslint-config@5.1.11':
-    resolution: {integrity: sha512-sMYcVCA9YmgvlthVoQflWB5WgsQJaTs+GwV/Gtj0bXGT3Qszq6RBC9luLQvcnzl6eEKcqHkZeiqNTEir66p99A==}
+  '@nivalis/eslint-config@5.1.12':
+    resolution: {integrity: sha512-EZPa6DQ0WwgScqIlzEnjz4fklHWeqMocI0E6YZNbaGk3jgjkM0cHGKfsFC/mJsjxtNWiPFL/sR1OIrZZI/q7xQ==}
     peerDependencies:
       eslint: ^9.27.0
 
@@ -1282,8 +1282,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-flat-config-utils@2.0.1:
-    resolution: {integrity: sha512-brf0eAgQ6JlKj3bKfOTuuI7VcCZvi8ZCD1MMTVoEvS/d38j8cByZViLFALH/36+eqB17ukmfmKq3bWzGvizejA==}
+  eslint-flat-config-utils@2.1.0:
+    resolution: {integrity: sha512-6fjOJ9tS0k28ketkUcQ+kKptB4dBZY2VijMZ9rGn8Cwnn1SH0cZBoPXT8AHBFHxmHcLFQK9zbELDinZ2Mr1rng==}
 
   eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==}
@@ -2620,10 +2620,6 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  synckit@0.11.3:
-    resolution: {integrity: sha512-szhWDqNNI9etJUvbZ1/cx1StnZx8yMmFxme48SwR4dty4ioSY50KEZlpv0qAfgc1fpRzuh9hBXEzoCpJ779dLg==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-
   synckit@0.11.6:
     resolution: {integrity: sha512-2pR2ubZSV64f/vqm9eLPz/KOvR9Dm+Co/5ChLgeHl0yEDRc6h5hXHoxEQH8Y5Ljycozd3p1k5TTSVdzYGkPvLw==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -3341,7 +3337,7 @@ snapshots:
   '@next/swc-win32-x64-msvc@15.3.2':
     optional: true
 
-  '@nivalis/eslint-config@5.1.11(@types/eslint@9.6.1)(eslint@9.27.0(jiti@2.4.2))(prettier@3.5.3)(tailwindcss@4.1.7)(typescript@5.8.3)':
+  '@nivalis/eslint-config@5.1.12(@types/eslint@9.6.1)(eslint@9.27.0(jiti@2.4.2))(prettier@3.5.3)(tailwindcss@4.1.7)(typescript@5.8.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.27.0(jiti@2.4.2))
       '@next/eslint-plugin-next': 15.3.2
@@ -3349,7 +3345,7 @@ snapshots:
       '@typescript-eslint/parser': 8.32.1(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
       eslint: 9.27.0(jiti@2.4.2)
       eslint-config-prettier: 10.1.5(eslint@9.27.0(jiti@2.4.2))
-      eslint-flat-config-utils: 2.0.1
+      eslint-flat-config-utils: 2.1.0
       eslint-plugin-import-x: 4.12.2(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
       eslint-plugin-jsdoc: 50.6.17(eslint@9.27.0(jiti@2.4.2))
       eslint-plugin-jsonc: 2.20.1(eslint@9.27.0(jiti@2.4.2))
@@ -4141,7 +4137,7 @@ snapshots:
     dependencies:
       eslint: 9.27.0(jiti@2.4.2)
 
-  eslint-flat-config-utils@2.0.1:
+  eslint-flat-config-utils@2.1.0:
     dependencies:
       pathe: 2.0.3
 
@@ -4250,7 +4246,7 @@ snapshots:
       eslint: 9.27.0(jiti@2.4.2)
       prettier: 3.5.3
       prettier-linter-helpers: 1.0.0
-      synckit: 0.11.3
+      synckit: 0.11.6
     optionalDependencies:
       '@types/eslint': 9.6.1
       eslint-config-prettier: 10.1.5(eslint@9.27.0(jiti@2.4.2))
@@ -5557,11 +5553,6 @@ snapshots:
       has-flag: 4.0.0
 
   supports-preserve-symlinks-flag@1.0.0: {}
-
-  synckit@0.11.3:
-    dependencies:
-      '@pkgr/core': 0.2.4
-      tslib: 2.8.1
 
   synckit@0.11.6:
     dependencies:
