@@ -45,6 +45,7 @@ next-env.d.ts
 # IDEs & Editors
 .idea/
 /.vscode/
+/.zed/
 
 # macOS
 .DS_Store
