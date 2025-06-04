@@ -1,7 +1,8 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "target": "ES2024",
-    "lib": ["dom", "dom.iterable", "ESNext"],
+    "target": "ES2022",
+    "lib": ["es2022", "DOM", "DOM.Iterable"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
