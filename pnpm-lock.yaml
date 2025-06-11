@@ -84,6 +84,9 @@ importers:
       prettier:
         specifier: 3.5.3
         version: 3.5.3
+      prettier-oxc-parser:
+        specifier: 0.1.1
+        version: 0.1.1(prettier@3.5.3)
       prettier-plugin-tailwindcss:
         specifier: 0.6.12
         version: 0.6.12(prettier@3.5.3)
@@ -581,6 +584,92 @@ packages:
   '@opentelemetry/api@1.9.0':
     resolution: {integrity: sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==}
     engines: {node: '>=8.0.0'}
+
+  '@oxc-parser/binding-darwin-arm64@0.72.0':
+    resolution: {integrity: sha512-uUAf0hBLzW8rfYiSuprYWtvvTvAqoswmVZsHVUqW4vFEdxgUn7XMlQuAlmRdPFu43UPMVG1/z30AUDcO54fQPQ==}
+    engines: {node: '>=14.0.0'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@oxc-parser/binding-darwin-x64@0.72.0':
+    resolution: {integrity: sha512-BN+CEFgE9tcNxLWZRkPRVD+oVJzfFpy/c3jt944UG7mWkVJEvg3V9fO0XbxuOntZwWKZdVX3virigj9xjNe7kg==}
+    engines: {node: '>=14.0.0'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@oxc-parser/binding-freebsd-x64@0.72.0':
+    resolution: {integrity: sha512-HWPsYVNQnfUthGYfaotD2CiZmsluOi/QHIIFsj5LW0QbCOB+tK896BTv/8yhjkxAw8BuzS4yM79PtDgdZd1wYw==}
+    engines: {node: '>=14.0.0'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@oxc-parser/binding-linux-arm-gnueabihf@0.72.0':
+    resolution: {integrity: sha512-9VQ4tdTulXIr8EYE9Vpy8FKpgfwxuMB2CF7bIwGCoWFoPs6i/iK3RAnVzIwgpSvZ1ibhkSaMbvbED8Jo33UuZw==}
+    engines: {node: '>=14.0.0'}
+    cpu: [arm]
+    os: [linux]
+
+  '@oxc-parser/binding-linux-arm-musleabihf@0.72.0':
+    resolution: {integrity: sha512-Berv7hdLI+MtVYHh0Wx+Gc4On+6JRC22dw63ReFQa8ep8pT8Ej1OM5pVQE/+4K4ClulqpWf7Oe9LZ1Lygfsj+w==}
+    engines: {node: '>=14.0.0'}
+    cpu: [arm]
+    os: [linux]
+
+  '@oxc-parser/binding-linux-arm64-gnu@0.72.0':
+    resolution: {integrity: sha512-80OQVzBvGduh4n4LEplaspWbgkCp4fS0B8bOW83Pn3KlZuEjQVGtCECF70v2zRPYE4a6FrSLA8JMCi1HG+7IMA==}
+    engines: {node: '>=14.0.0'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@oxc-parser/binding-linux-arm64-musl@0.72.0':
+    resolution: {integrity: sha512-I0kdm0vXcNiig/C6BcIyYfQaF3M5mHOJjkb576ACE19CeTCHGfRjFxEhbWutiht9fD9DJmsWFGnyabi8SGTr8A==}
+    engines: {node: '>=14.0.0'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@oxc-parser/binding-linux-riscv64-gnu@0.72.0':
+    resolution: {integrity: sha512-cpKRs5lxj7/r4CNzls59nMUMHXSQ0RYAvI57luz6BbAPTddxaRcz/tFPrP9tSJVTh73ATI8zrXtVuOaQp66MrQ==}
+    engines: {node: '>=14.0.0'}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@oxc-parser/binding-linux-s390x-gnu@0.72.0':
+    resolution: {integrity: sha512-8BjB9B4iw4lruPeyCBU8LBYjk7DPbwxDy5PmJwKtKhY5GIQjnAcdJfXKsqNo0VntXnqSTfN5T8t4nqOQXneYug==}
+    engines: {node: '>=14.0.0'}
+    cpu: [s390x]
+    os: [linux]
+
+  '@oxc-parser/binding-linux-x64-gnu@0.72.0':
+    resolution: {integrity: sha512-AI9h0vIucg6nxCD1mNPshxUohmcR4OVILClTnelKjWICYQZOu8Jp3QomHH2O8N4ZSfaT/jykMpxi5DIJglprSw==}
+    engines: {node: '>=14.0.0'}
+    cpu: [x64]
+    os: [linux]
+
+  '@oxc-parser/binding-linux-x64-musl@0.72.0':
+    resolution: {integrity: sha512-lgcBfzGlE+hu+pJxqpC7P0AE3KswupHqm21mCsqNtMsZE32V5oZVdiCfCvCxIgwozpw1oNpapUnz1NRQFxn5Ug==}
+    engines: {node: '>=14.0.0'}
+    cpu: [x64]
+    os: [linux]
+
+  '@oxc-parser/binding-wasm32-wasi@0.72.0':
+    resolution: {integrity: sha512-Rnk/onXKQAJAvQ6Gzqx4ewkOT2Lfoa/gpM+imUblhp9C/KXWx0i4imNL4Y2TrZ99co1HrEBUTHZhJxjCuM0OhA==}
+    engines: {node: '>=14.0.0'}
+    cpu: [wasm32]
+
+  '@oxc-parser/binding-win32-arm64-msvc@0.72.0':
+    resolution: {integrity: sha512-UJ4gt/wFdtpv/9szmZI+wzxsz6tUYQyoUHQ9Lrz8OgmFKfaqSivlEQ7HEIqc4cgMheFsZ7WKeFvnBp/0JZX/VQ==}
+    engines: {node: '>=14.0.0'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@oxc-parser/binding-win32-x64-msvc@0.72.0':
+    resolution: {integrity: sha512-0UT5FSkKAakg+oo7+TRwJa4U7yhd6dzxeG8mF19svOp/vGA+CQjH3pJ+DXC25wfcTyPvQRcc/MtHr4fsQMG2wQ==}
+    engines: {node: '>=14.0.0'}
+    cpu: [x64]
+    os: [win32]
+
+  '@oxc-project/types@0.72.3':
+    resolution: {integrity: sha512-CfAC4wrmMkUoISpQkFAIfMVvlPfQV3xg7ZlcqPXPOIMQhdKIId44G8W0mCPgtpWdFFAyJ+SFtiM+9vbyCkoVng==}
 
   '@pkgr/core@0.2.4':
     resolution: {integrity: sha512-ROFF39F6ZrnzSUEmQQZUar0Jt4xVoP9WnDRdWwF4NNcXs3xBTLgBUDoOwW141y1jP+S8nahIbdxbFC7IShw9Iw==}
@@ -2257,6 +2346,10 @@ packages:
     resolution: {integrity: sha512-qFOyK5PjiWZd+QQIh+1jhdb9LpxTF0qs7Pm8o5QHYZ0M3vKqSqzsZaEB6oWlxZ+q2sJBMI/Ktgd2N5ZwQoRHfg==}
     engines: {node: '>= 0.4'}
 
+  oxc-parser@0.72.0:
+    resolution: {integrity: sha512-0/QK7u5Fcetyl94NhMg+2T/xXIzhX/Wjlq58bXi9Ffg9dwHe11Mg12qWF5Aak/0KHCNaHzEsd+5B/W1gySbXnQ==}
+    engines: {node: '>=14.0.0'}
+
   p-limit@3.1.0:
     resolution: {integrity: sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==}
     engines: {node: '>=10'}
@@ -2350,6 +2443,11 @@ packages:
   prettier-linter-helpers@1.0.0:
     resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
     engines: {node: '>=6.0.0'}
+
+  prettier-oxc-parser@0.1.1:
+    resolution: {integrity: sha512-eGkdTAUqN3XXtEWc2p7DSbj2FrgdrHDACk1QsahggIJxw59uiwTOHa5l6BiuHJ9IeVrh/LlyaTBcgsbK7JZVRw==}
+    peerDependencies:
+      prettier: ^3.5.3
 
   prettier-plugin-tailwindcss@0.6.12:
     resolution: {integrity: sha512-OuTQKoqNwV7RnxTPwXWzOFXy6Jc4z8oeRZYGuMpRyG3WbuR3jjXdQFK8qFBMBx8UHWdHrddARz2fgUenild6aw==}
@@ -3472,6 +3570,52 @@ snapshots:
 
   '@opentelemetry/api@1.9.0':
     optional: true
+
+  '@oxc-parser/binding-darwin-arm64@0.72.0':
+    optional: true
+
+  '@oxc-parser/binding-darwin-x64@0.72.0':
+    optional: true
+
+  '@oxc-parser/binding-freebsd-x64@0.72.0':
+    optional: true
+
+  '@oxc-parser/binding-linux-arm-gnueabihf@0.72.0':
+    optional: true
+
+  '@oxc-parser/binding-linux-arm-musleabihf@0.72.0':
+    optional: true
+
+  '@oxc-parser/binding-linux-arm64-gnu@0.72.0':
+    optional: true
+
+  '@oxc-parser/binding-linux-arm64-musl@0.72.0':
+    optional: true
+
+  '@oxc-parser/binding-linux-riscv64-gnu@0.72.0':
+    optional: true
+
+  '@oxc-parser/binding-linux-s390x-gnu@0.72.0':
+    optional: true
+
+  '@oxc-parser/binding-linux-x64-gnu@0.72.0':
+    optional: true
+
+  '@oxc-parser/binding-linux-x64-musl@0.72.0':
+    optional: true
+
+  '@oxc-parser/binding-wasm32-wasi@0.72.0':
+    dependencies:
+      '@napi-rs/wasm-runtime': 0.2.10
+    optional: true
+
+  '@oxc-parser/binding-win32-arm64-msvc@0.72.0':
+    optional: true
+
+  '@oxc-parser/binding-win32-x64-msvc@0.72.0':
+    optional: true
+
+  '@oxc-project/types@0.72.3': {}
 
   '@pkgr/core@0.2.4': {}
 
@@ -5290,6 +5434,25 @@ snapshots:
       object-keys: 1.1.1
       safe-push-apply: 1.0.0
 
+  oxc-parser@0.72.0:
+    dependencies:
+      '@oxc-project/types': 0.72.3
+    optionalDependencies:
+      '@oxc-parser/binding-darwin-arm64': 0.72.0
+      '@oxc-parser/binding-darwin-x64': 0.72.0
+      '@oxc-parser/binding-freebsd-x64': 0.72.0
+      '@oxc-parser/binding-linux-arm-gnueabihf': 0.72.0
+      '@oxc-parser/binding-linux-arm-musleabihf': 0.72.0
+      '@oxc-parser/binding-linux-arm64-gnu': 0.72.0
+      '@oxc-parser/binding-linux-arm64-musl': 0.72.0
+      '@oxc-parser/binding-linux-riscv64-gnu': 0.72.0
+      '@oxc-parser/binding-linux-s390x-gnu': 0.72.0
+      '@oxc-parser/binding-linux-x64-gnu': 0.72.0
+      '@oxc-parser/binding-linux-x64-musl': 0.72.0
+      '@oxc-parser/binding-wasm32-wasi': 0.72.0
+      '@oxc-parser/binding-win32-arm64-msvc': 0.72.0
+      '@oxc-parser/binding-win32-x64-msvc': 0.72.0
+
   p-limit@3.1.0:
     dependencies:
       yocto-queue: 0.1.0
@@ -5374,6 +5537,11 @@ snapshots:
   prettier-linter-helpers@1.0.0:
     dependencies:
       fast-diff: 1.3.0
+
+  prettier-oxc-parser@0.1.1(prettier@3.5.3):
+    dependencies:
+      oxc-parser: 0.72.0
+      prettier: 3.5.3
 
   prettier-plugin-tailwindcss@0.6.12(prettier@3.5.3):
     dependencies:
