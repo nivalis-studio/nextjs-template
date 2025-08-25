@@ -3,10 +3,6 @@ import type { NextConfig } from 'next';
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
-  eslint: {
-    dirs: ['.'],
-    ignoreDuringBuilds: true,
-  },
   experimental: {
     // ppr: true,
     serverMinification: true,
