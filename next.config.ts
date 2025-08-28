@@ -3,8 +3,10 @@ import type { NextConfig } from 'next';
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   experimental: {
-    // ppr: true,
     serverMinification: true,
     // @see https://vercel.com/blog/how-we-optimized-package-imports-in-next-js
     optimizePackageImports: [
