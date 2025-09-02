@@ -4,7 +4,7 @@ commit-msg:
       run: pnpm commitlint --edit
 pre-commit:
   jobs:
-    - run: pnpm eslint
+    - run: pnpm eslint --fix {staged_files}
       glob:
         - "*.js"
         - "*.jsx"
