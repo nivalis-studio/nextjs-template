@@ -9,7 +9,7 @@
 		"pnpm": "10.x"
 	},
 	"scripts": {
-		"dev": "NEXT_TELEMETRY_DISABLED=1 NODE_NO_WARNINGS=1 next dev --turbopack",
+		"dev": "NEXT_TELEMETRY_DISABLED=1 NODE_NO_WARNINGS=1 next dev",
 		"build": "NEXT_TELEMETRY_DISABLED=1 NODE_NO_WARNINGS=1 next build",
 		"start": "NEXT_TELEMETRY_DISABLED=1 NODE_NO_WARNINGS=1 next start",
 		"lint": "biome check",
@@ -18,9 +18,10 @@
 		"ts": "tsc"
 	},
 	"dependencies": {
+		"babel-plugin-react-compiler": "1.0.0",
 		"class-variance-authority": "0.7.1",
 		"clsx": "2.1.1",
-		"lucide-react": "0.546.0",
+		"lucide-react": "0.547.0",
 		"next": "16.0.0",
 		"postcss": "8.5.6",
 		"react": "19.2.0",
@@ -31,17 +32,17 @@
 		"zod": "4.1.12"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.2.7",
+		"@biomejs/biome": "2.3.0",
 		"@commitlint/cli": "20.1.0",
 		"@commitlint/config-conventional": "20.0.0",
 		"@nivalis/biome-config": "0.1.4",
-		"@tailwindcss/postcss": "4.1.15",
+		"@tailwindcss/postcss": "4.1.16",
 		"@total-typescript/ts-reset": "0.6.1",
 		"@types/node": "22.2.0",
 		"@types/react": "19.2.2",
 		"@types/react-dom": "19.2.2",
 		"lefthook": "2.0.0",
-		"tailwindcss": "4.1.15",
+		"tailwindcss": "4.1.16",
 		"tailwindcss-animate": "1.0.7",
 		"typescript": "5.9.3"
 	}

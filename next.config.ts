@@ -3,7 +3,9 @@ import type { NextConfig } from 'next';
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
+  reactCompiler: true,
   experimental: {
+    turbopackFileSystemCacheForDev: true,
     // @see https://vercel.com/blog/how-we-optimized-package-imports-in-next-js
     optimizePackageImports: [
       '@radix-ui/react-accessible-icon',
