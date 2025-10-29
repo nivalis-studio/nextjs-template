@@ -3,7 +3,7 @@ import type { NextConfig } from 'next';
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
-  reactCompiler: true,
+  reactCompiler: false,
   experimental: {
     turbopackFileSystemCacheForDev: true,
     // @see https://vercel.com/blog/how-we-optimized-package-imports-in-next-js
