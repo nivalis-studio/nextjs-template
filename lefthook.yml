@@ -3,6 +3,7 @@ commit-msg:
     commitlint:
       run: pnpm commitlint --edit
 pre-commit:
+  parallel: true
   jobs:
     - run: pnpm biome check --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
       glob:
@@ -18,3 +19,4 @@ pre-commit:
         - "*.jsonc"
         - "*.css"
       stage_fixed: true
+    - run: pnpm run ts
