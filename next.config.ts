@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   reactCompiler: true,
+  cacheComponents: true,
   experimental: {
     turbopackFileSystemCacheForDev: true,
     // @see https://vercel.com/blog/how-we-optimized-package-imports-in-next-js
@@ -21,7 +22,6 @@ const nextConfig: NextConfig = {
     ],
   },
   images: {
-    dangerouslyAllowLocalIP: true,
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       {

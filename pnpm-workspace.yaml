@@ -1,13 +1,13 @@
 onlyBuiltDependencies:
-  - "@vercel/speed-insights"
-  - esbuild
-  - sharp
-  - "@parcel/watcher"
-  - "@prisma/client"
-  - "@prisma/engines"
-  - "@tailwindcss/oxide"
+  - '@parcel/watcher'
+  - '@prisma/client'
+  - '@prisma/engines'
+  - '@tailwindcss/oxide'
+  - '@vercel/speed-insights'
   - bufferutil
+  - esbuild
   - lefthook
   - prisma
   - protobufjs
   - puppeteer
+  - sharp
