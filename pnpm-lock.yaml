@@ -4,85 +4,163 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  default:
+    '@biomejs/biome':
+      specifier: 2.3.2
+      version: 2.3.2
+    '@commitlint/cli':
+      specifier: 20.1.0
+      version: 20.1.0
+    '@commitlint/config-conventional':
+      specifier: 20.0.0
+      version: 20.0.0
+    '@nivalis/biome-config':
+      specifier: 2.3.2
+      version: 2.3.2
+    '@tailwindcss/postcss':
+      specifier: 4.1.16
+      version: 4.1.16
+    '@total-typescript/ts-reset':
+      specifier: 0.6.1
+      version: 0.6.1
+    '@types/node':
+      specifier: 22.2.0
+      version: 22.2.0
+    '@types/react':
+      specifier: 19.2.2
+      version: 19.2.2
+    '@types/react-dom':
+      specifier: 19.2.2
+      version: 19.2.2
+    babel-plugin-react-compiler:
+      specifier: 1.0.0
+      version: 1.0.0
+    class-variance-authority:
+      specifier: 0.7.1
+      version: 0.7.1
+    clsx:
+      specifier: 2.1.1
+      version: 2.1.1
+    lefthook:
+      specifier: 2.0.2
+      version: 2.0.2
+    lucide-react:
+      specifier: 0.552.0
+      version: 0.552.0
+    next:
+      specifier: 16.0.1
+      version: 16.0.1
+    postcss:
+      specifier: 8.5.6
+      version: 8.5.6
+    react:
+      specifier: 19.2.0
+      version: 19.2.0
+    react-dom:
+      specifier: 19.2.0
+      version: 19.2.0
+    server-only:
+      specifier: 0.0.1
+      version: 0.0.1
+    tailwind-merge:
+      specifier: 3.3.1
+      version: 3.3.1
+    tailwindcss:
+      specifier: 4.1.16
+      version: 4.1.16
+    tailwindcss-animate:
+      specifier: 1.0.7
+      version: 1.0.7
+    turbo:
+      specifier: 2.6.0
+      version: 2.6.0
+    typescript:
+      specifier: 5.9.3
+      version: 5.9.3
+    zod:
+      specifier: 4.1.12
+      version: 4.1.12
+
 importers:
 
   .:
     dependencies:
       babel-plugin-react-compiler:
-        specifier: 1.0.0
+        specifier: 'catalog:'
         version: 1.0.0
       class-variance-authority:
-        specifier: 0.7.1
+        specifier: 'catalog:'
         version: 0.7.1
       clsx:
-        specifier: 2.1.1
+        specifier: 'catalog:'
         version: 2.1.1
       lucide-react:
-        specifier: 0.552.0
+        specifier: 'catalog:'
         version: 0.552.0(react@19.2.0)
       next:
-        specifier: 16.0.1
+        specifier: 'catalog:'
         version: 16.0.1(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       postcss:
-        specifier: 8.5.6
+        specifier: 'catalog:'
         version: 8.5.6
       react:
-        specifier: 19.2.0
+        specifier: 'catalog:'
         version: 19.2.0
       react-dom:
-        specifier: 19.2.0
+        specifier: 'catalog:'
         version: 19.2.0(react@19.2.0)
       server-only:
-        specifier: 0.0.1
+        specifier: 'catalog:'
         version: 0.0.1
       tailwind-merge:
-        specifier: 3.3.1
+        specifier: 'catalog:'
         version: 3.3.1
       turbo:
-        specifier: 2.6.0
+        specifier: 'catalog:'
         version: 2.6.0
       zod:
-        specifier: 4.1.12
+        specifier: 'catalog:'
         version: 4.1.12
     devDependencies:
       '@biomejs/biome':
-        specifier: 2.3.2
+        specifier: 'catalog:'
         version: 2.3.2
       '@commitlint/cli':
-        specifier: 20.1.0
+        specifier: 'catalog:'
         version: 20.1.0(@types/node@22.2.0)(typescript@5.9.3)
       '@commitlint/config-conventional':
-        specifier: 20.0.0
+        specifier: 'catalog:'
         version: 20.0.0
       '@nivalis/biome-config':
-        specifier: 2.3.2
+        specifier: 'catalog:'
         version: 2.3.2
       '@tailwindcss/postcss':
-        specifier: 4.1.16
+        specifier: 'catalog:'
         version: 4.1.16
       '@total-typescript/ts-reset':
-        specifier: 0.6.1
+        specifier: 'catalog:'
         version: 0.6.1
       '@types/node':
-        specifier: 22.2.0
+        specifier: 'catalog:'
         version: 22.2.0
       '@types/react':
-        specifier: 19.2.2
+        specifier: 'catalog:'
         version: 19.2.2
       '@types/react-dom':
-        specifier: 19.2.2
+        specifier: 'catalog:'
         version: 19.2.2(@types/react@19.2.2)
       lefthook:
-        specifier: 2.0.2
+        specifier: 'catalog:'
         version: 2.0.2
       tailwindcss:
-        specifier: 4.1.16
+        specifier: 'catalog:'
         version: 4.1.16
       tailwindcss-animate:
-        specifier: 1.0.7
+        specifier: 'catalog:'
         version: 1.0.7(tailwindcss@4.1.16)
       typescript:
-        specifier: 5.9.3
+        specifier: 'catalog:'
         version: 5.9.3
 
 packages:
@@ -97,10 +175,6 @@ packages:
 
   '@babel/helper-string-parser@7.27.1':
     resolution: {integrity: sha512-qMlSxKbpRlAridDExk92nSobyDdpPijUq2DW6oDnUqd0iOGxmQjyqhMIihI9+zv4LPyZdRje2cavWPbCbWm3eA==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/helper-validator-identifier@7.27.1':
-    resolution: {integrity: sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-validator-identifier@7.28.5':
@@ -526,8 +600,8 @@ packages:
   '@total-typescript/ts-reset@0.6.1':
     resolution: {integrity: sha512-cka47fVSo6lfQDIATYqb/vO1nvFfbPw7uWLayIXIhGETj0wcOOlrlkobOMDNQOFr9QOafegUPq13V2+6vtD7yg==}
 
-  '@types/conventional-commits-parser@5.0.1':
-    resolution: {integrity: sha512-7uz5EHdzz2TqoMfV7ee61Egf5y6NkcO4FB/1iCCQnbeiI1F3xzv3vK5dBCXUCLQgGYS+mUeigK1iKQzvED+QnQ==}
+  '@types/conventional-commits-parser@5.0.2':
+    resolution: {integrity: sha512-BgT2szDXnVypgpNxOK8aL5SGjUdaQbC++WZNjF1Qge3Og2+zhHj+RWhmehLhYyvQwqAmvezruVfOf8+3m74W+g==}
 
   '@types/node@22.2.0':
     resolution: {integrity: sha512-bm6EG6/pCpkxDf/0gDNDdtDILMOHgaQBVOJGdwsqClnxA3xL6jtMv76rLBc006RVMWbmaf0xbmom4Z/5o2nRkQ==}
@@ -568,8 +642,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001751:
-    resolution: {integrity: sha512-A0QJhug0Ly64Ii3eIqHu5X51ebln3k4yTUkY1j8drqpWHVreg/VLijN48cZ1bYPiqOQuqpkIKnzr/Ul8V+p6Cw==}
+  caniuse-lite@1.0.30001752:
+    resolution: {integrity: sha512-vKUk7beoukxE47P5gcVNKkDRzXdVofotshHwfR9vmpeFKxmI5PBpgOMC18LUJUA/DvJ70Y7RveasIBraqsyO/g==}
 
   chalk@5.6.2:
     resolution: {integrity: sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA==}
@@ -898,8 +972,8 @@ packages:
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  magic-string@0.30.19:
-    resolution: {integrity: sha512-2N21sPY9Ws53PZvsEpVtNuSW+ScYbQdp4b9qUaL+9QkHUrGFKo56Lg9Emg5s9V/qrtNBmiR01sYhUOwu3H+VOw==}
+  magic-string@0.30.21:
+    resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
 
   meow@12.1.1:
     resolution: {integrity: sha512-BhXM0Au22RwUneMPwSCnyhTOizdWoIEPU9sp0Aqa1PnDMR5Wv2FGXYDjuzJEIX+Eo2Rb8xuYe5jrnm5QowQFkw==}
@@ -1137,13 +1211,11 @@ snapshots:
 
   '@babel/code-frame@7.27.1':
     dependencies:
-      '@babel/helper-validator-identifier': 7.27.1
+      '@babel/helper-validator-identifier': 7.28.5
       js-tokens: 4.0.0
       picocolors: 1.1.1
 
   '@babel/helper-string-parser@7.27.1': {}
-
-  '@babel/helper-validator-identifier@7.27.1': {}
 
   '@babel/helper-validator-identifier@7.28.5': {}
 
@@ -1294,7 +1366,7 @@ snapshots:
 
   '@commitlint/types@20.0.0':
     dependencies:
-      '@types/conventional-commits-parser': 5.0.1
+      '@types/conventional-commits-parser': 5.0.2
       chalk: 5.6.2
 
   '@emnapi/runtime@1.6.0':
@@ -1448,7 +1520,7 @@ snapshots:
       enhanced-resolve: 5.18.3
       jiti: 2.6.1
       lightningcss: 1.30.2
-      magic-string: 0.30.19
+      magic-string: 0.30.21
       source-map-js: 1.2.1
       tailwindcss: 4.1.16
 
@@ -1513,7 +1585,7 @@ snapshots:
 
   '@total-typescript/ts-reset@0.6.1': {}
 
-  '@types/conventional-commits-parser@5.0.1':
+  '@types/conventional-commits-parser@5.0.2':
     dependencies:
       '@types/node': 22.2.0
 
@@ -1557,7 +1629,7 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  caniuse-lite@1.0.30001751: {}
+  caniuse-lite@1.0.30001752: {}
 
   chalk@5.6.2: {}
 
@@ -1819,7 +1891,7 @@ snapshots:
     dependencies:
       react: 19.2.0
 
-  magic-string@0.30.19:
+  magic-string@0.30.21:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
@@ -1833,7 +1905,7 @@ snapshots:
     dependencies:
       '@next/env': 16.0.1
       '@swc/helpers': 0.5.15
-      caniuse-lite: 1.0.30001751
+      caniuse-lite: 1.0.30001752
       postcss: 8.4.31
       react: 19.2.0
       react-dom: 19.2.0(react@19.2.0)
