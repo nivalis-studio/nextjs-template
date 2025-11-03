@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   reactCompiler: true,
   cacheComponents: true,
+  typedRoutes: true,
   experimental: {
     turbopackFileSystemCacheForDev: true,
     // @see https://vercel.com/blog/how-we-optimized-package-imports-in-next-js
