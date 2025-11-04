@@ -38,5 +38,5 @@ catalog:
   tailwindcss-animate: 1.0.7
   turbo: 2.6.0
   typescript: 5.9.3
-  workflow: 4.0.1-beta.6
+  workflow: 4.0.1-beta.7
   zod: 4.1.12
