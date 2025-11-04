@@ -1,4 +1,4 @@
-## Nivalis Studio nextjs template
+## @nivalis-studio/nextjs-template
 
 ### Install
 
