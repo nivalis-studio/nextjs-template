@@ -1,4 +1,5 @@
 import '@/styles/globals.css';
+import { Analytics } from '@vercel/analytics/next';
 import { fonts } from '@/fonts';
 import { cn } from '@/lib/classnames';
 import type { Metadata } from 'next';
@@ -13,7 +14,10 @@ export const metadata: Metadata = {
 const Layout = ({ children }: PropsWithChildren) => {
   return (
     <html className={cn('dark font-mono', fonts)} lang='en'>
-      <body className='isolate'>{children}</body>
+      <body className='isolate'>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 };

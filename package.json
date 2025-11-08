@@ -18,6 +18,7 @@
 		"ts": "next typegen && tsc --noEmit"
 	},
 	"dependencies": {
+		"@vercel/analytics": "catalog:",
 		"babel-plugin-react-compiler": "catalog:",
 		"class-variance-authority": "catalog:",
 		"clsx": "catalog:",
