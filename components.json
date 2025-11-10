@@ -3,6 +3,9 @@
 	"style": "new-york",
 	"rsc": true,
 	"tsx": true,
+	"registries": {
+		"@nivalis": "https://ui.nivalis.studio/r/{name}.json"
+	},
 	"tailwind": {
 		"config": "tailwind.config.ts",
 		"css": "src/styles/globals.css",
