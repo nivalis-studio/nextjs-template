@@ -13,7 +13,7 @@
   --color-background: oklch(100% 0 0);
 }
 
-&:where(.dark, .dark *) {
+.dark {
   --color-border: oklch(1 0 0 / 8%);
   --color-foreground: oklch(100% 0 0);
   --color-background: oklch(21.34% 0 0);
@@ -68,10 +68,4 @@
 .no-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-}
-
-/* minimal scrollbar styling */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
 }
