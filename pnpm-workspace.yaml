@@ -1,6 +1,6 @@
 catalog:
-  "@ai-sdk/openai": "3.0.0-beta.74"
-  "@ai-sdk/react": 2.0.109
+  "@ai-sdk/openai": "3.0.0-beta.95"
+  "@ai-sdk/react": "3.0.0-beta.151"
   "@base-ui-components/react": 1.0.0-rc.0
   "@biomejs/biome": 2.3.8
   "@commitlint/cli": 20.2.0
@@ -8,28 +8,28 @@ catalog:
   "@nivalis/biome-config": 2.3.8
   "@prisma/adapter-neon": 7.1.0
   "@prisma/client": 7.1.0
-  "@tailwindcss/postcss": 4.1.17
+  "@tailwindcss/postcss": 4.1.18
   "@total-typescript/ts-reset": 0.6.1
   "@types/node": 22.18.13
   "@types/react": 19.2.7
   "@types/react-dom": 19.2.3
   "@vercel/analytics": 1.6.1
   "@vercel/blob": 2.0.0
-  ai: "6.0.0-beta.126"
+  ai: "6.0.0-beta.148"
   babel-plugin-react-compiler: 1.0.0
   class-variance-authority: 0.7.1
   clsx: 2.1.1
-  lefthook: 2.0.9
-  lucide-react: 0.556.0
-  next: 16.0.8
+  lefthook: 2.0.11
+  lucide-react: 0.561.0
+  next: 16.0.10
   postcss: 8.5.6
   prisma: 7.1.0
-  react: 19.2.1
-  react-dom: 19.2.1
+  react: 19.2.3
+  react-dom: 19.2.3
   schema-dts: 1.1.5
   server-only: 0.0.1
   tailwind-merge: 3.4.0
-  tailwindcss: 4.1.17
+  tailwindcss: 4.1.18
   tailwindcss-animate: 1.0.7
   turbo: 2.6.3
   typescript: 5.9.3
