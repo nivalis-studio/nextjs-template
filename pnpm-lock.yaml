@@ -7,7 +7,7 @@ settings:
 catalogs:
   default:
     '@ai-sdk/openai':
-      specifier: 3.0.0-beta.102
+      specifier: 3.0.1
       version: 3.0.0-beta.102
     '@biomejs/biome':
       specifier: 2.3.10
@@ -39,8 +39,11 @@ catalogs:
     '@vercel/analytics':
       specifier: 1.6.1
       version: 1.6.1
+    '@vercel/config':
+      specifier: 0.0.24
+      version: 0.0.24
     ai:
-      specifier: 6.0.0-beta.156
+      specifier: 6.0.3
       version: 6.0.0-beta.156
     babel-plugin-react-compiler:
       specifier: 1.0.0
@@ -58,7 +61,7 @@ catalogs:
       specifier: 0.562.0
       version: 0.562.0
     next:
-      specifier: 16.1.0
+      specifier: 16.1.1
       version: 16.1.0
     postcss:
       specifier: 8.5.6
@@ -85,13 +88,13 @@ catalogs:
       specifier: 1.0.7
       version: 1.0.7
     turbo:
-      specifier: 2.6.3
+      specifier: 2.7.1
       version: 2.6.3
     typescript:
       specifier: 5.9.3
       version: 5.9.3
     workflow:
-      specifier: 4.0.1-beta.33
+      specifier: 4.0.1-beta.35
       version: 4.0.1-beta.33
     zod:
       specifier: 4.2.1
@@ -107,6 +110,9 @@ importers:
       '@vercel/analytics':
         specifier: 'catalog:'
         version: 1.6.1(@sveltejs/kit@2.48.4(@opentelemetry/api@1.9.0)(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.43.3)(vite@7.2.6(@types/node@22.18.13)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2)))(svelte@5.43.3)(vite@7.2.6(@types/node@22.18.13)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2)))(next@16.1.0(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(svelte@5.43.3)(vue-router@4.6.3(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))
+      '@vercel/config':
+        specifier: 'catalog:'
+        version: 0.0.24
       ai:
         specifier: 'catalog:'
         version: 6.0.0-beta.156(zod@4.2.1)
@@ -1514,6 +1520,10 @@ packages:
       vue-router:
         optional: true
 
+  '@vercel/config@0.0.24':
+    resolution: {integrity: sha512-waXuuxE67rkA13YOqKcVaOM+9687z0m1FgFw67cngG0ZxisfeBtaD681bYfQZexZN/B9QUG75+kv01I+gMOfAQ==}
+    hasBin: true
+
   '@vercel/functions@3.2.0':
     resolution: {integrity: sha512-JK50S8CJFsw9wdFfNYqS9wKIu8ok+n5JlBBBtEIB+/YuVBfW80OY9chAaYoYweA7firKH6c3H3JfyCw3X13jvw==}
     engines: {node: '>= 20'}
@@ -2682,6 +2692,10 @@ packages:
     resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
 
+  pretty-cache-header@1.0.0:
+    resolution: {integrity: sha512-xtXazslu25CdnGnUkByU1RoOjK55TqwatJkjjJLg5ZAdz2Lngko/mmaUgeET36P2GMlNwh3fdM7FWBO717pNcw==}
+    engines: {node: '>=12.13'}
+
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
@@ -2881,6 +2895,10 @@ packages:
 
   through@2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
+
+  timestring@6.0.0:
+    resolution: {integrity: sha512-wMctrWD2HZZLuIlchlkE2dfXJh7J2KDI9Dwl+2abPYg0mswQHfOAyQW3jJg1pY5VfttSINZuKcXoB3FGypVklA==}
+    engines: {node: '>=8'}
 
   tinyexec@1.0.2:
     resolution: {integrity: sha512-W/KYk+NFhkmsYpuHq5JykngiOCnxeVL8v8dFnqxSD8qEEdRfXk1SDM6JzNqcERbcGYj9tMrDQBYV9cjgnunFIg==}
@@ -3124,6 +3142,9 @@ packages:
 
   zimmerframe@1.1.4:
     resolution: {integrity: sha512-B58NGBEoc8Y9MWWCQGl/gq9xBCe4IiKM0a2x7GZdQKOW5Exr8S1W24J6OgM1njK8xCRGvAJIL/MxXHf6SkmQKQ==}
+
+  zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
   zod@4.1.11:
     resolution: {integrity: sha512-WPsqwxITS2tzx1bzhIKsEs19ABD5vmCVa4xBo2tq/SrV4RNZtfws1EnCWQXM6yh8bD08a1idvkB5MZSBiZsjwg==}
@@ -4641,6 +4662,11 @@ snapshots:
       vue: 3.5.25(typescript@5.9.3)
       vue-router: 4.6.3(vue@3.5.25(typescript@5.9.3))
 
+  '@vercel/config@0.0.24':
+    dependencies:
+      pretty-cache-header: 1.0.0
+      zod: 3.25.76
+
   '@vercel/functions@3.2.0(@aws-sdk/credential-provider-web-identity@3.609.0(@aws-sdk/client-sts@3.925.0))':
     dependencies:
       '@vercel/oidc': 3.0.3
@@ -5912,6 +5938,10 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
+  pretty-cache-header@1.0.0:
+    dependencies:
+      timestring: 6.0.0
+
   queue-microtask@1.2.3: {}
 
   rc9@2.1.2:
@@ -6138,6 +6168,8 @@ snapshots:
   text-extensions@2.4.0: {}
 
   through@2.3.8: {}
+
+  timestring@6.0.0: {}
 
   tinyexec@1.0.2: {}
 
@@ -6373,6 +6405,8 @@ snapshots:
 
   zimmerframe@1.1.4:
     optional: true
+
+  zod@3.25.76: {}
 
   zod@4.1.11: {}
 
