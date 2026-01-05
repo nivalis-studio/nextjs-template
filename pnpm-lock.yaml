@@ -7,20 +7,20 @@ settings:
 catalogs:
   default:
     '@ai-sdk/openai':
-      specifier: 3.0.1
+      specifier: 3.0.2
       version: 3.0.0-beta.102
     '@biomejs/biome':
-      specifier: 2.3.10
+      specifier: 2.3.11
       version: 2.3.10
     '@commitlint/cli':
-      specifier: 20.2.0
+      specifier: 20.3.0
       version: 20.2.0
     '@commitlint/config-conventional':
-      specifier: 20.2.0
+      specifier: 20.3.0
       version: 20.2.0
     '@nivalis/biome-config':
-      specifier: 2.3.10
-      version: 2.3.10
+      specifier: 2.3.11
+      version: 2.3.11
     '@tailwindcss/postcss':
       specifier: 4.1.18
       version: 4.1.18
@@ -43,7 +43,7 @@ catalogs:
       specifier: 0.0.24
       version: 0.0.24
     ai:
-      specifier: 6.0.3
+      specifier: 6.0.7
       version: 6.0.0-beta.156
     babel-plugin-react-compiler:
       specifier: 1.0.0
@@ -94,10 +94,10 @@ catalogs:
       specifier: 5.9.3
       version: 5.9.3
     workflow:
-      specifier: 4.0.1-beta.38
+      specifier: 4.0.1-beta.41
       version: 4.0.1-beta.38
     zod:
-      specifier: 4.2.1
+      specifier: 4.3.5
       version: 4.2.1
 
 importers:
@@ -167,7 +167,7 @@ importers:
         version: 20.2.0
       '@nivalis/biome-config':
         specifier: 'catalog:'
-        version: 2.3.10(@biomejs/biome@2.3.10)
+        version: 2.3.11(@biomejs/biome@2.3.10)
       '@tailwindcss/postcss':
         specifier: 'catalog:'
         version: 4.1.18
@@ -915,8 +915,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@nivalis/biome-config@2.3.10':
-    resolution: {integrity: sha512-AL42wD6cRRHJMYePFMUo8iZmikoYIjwSAWR6DKsXKUrKjQ5x4zrkhemsazHYK99xJhEiMorfZ1EEjV0UMvBNqg==}
+  '@nivalis/biome-config@2.3.11':
+    resolution: {integrity: sha512-iovC+bm4mjByfHgq5OE/2tdRo+k5WHm56WS6EbCL80tZpSQF1CamO5LG4n2PvekOuqp3MPw2PplD69o3qZNPFw==}
     peerDependencies:
       '@biomejs/biome': '>=2'
 
@@ -3979,7 +3979,7 @@ snapshots:
   '@next/swc-win32-x64-msvc@16.1.0':
     optional: true
 
-  '@nivalis/biome-config@2.3.10(@biomejs/biome@2.3.10)':
+  '@nivalis/biome-config@2.3.11(@biomejs/biome@2.3.10)':
     dependencies:
       '@biomejs/biome': 2.3.10
 
