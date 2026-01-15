@@ -1,7 +1,7 @@
 catalog:
-  '@ai-sdk/openai': 3.0.7
-  '@ai-sdk/react': 3.0.29
-  '@base-ui/react': 1.0.0
+  '@ai-sdk/openai': 3.0.11
+  '@ai-sdk/react': 3.0.39
+  '@base-ui/react': 1.1.0
   '@biomejs/biome': 2.3.11
   '@commitlint/cli': 20.3.1
   '@commitlint/config-conventional': 20.3.1
@@ -16,14 +16,14 @@ catalog:
   '@vercel/analytics': 1.6.1
   '@vercel/blob': 2.0.0
   '@vercel/config': 0.0.25
-  ai: 6.0.27
+  ai: 6.0.37
   babel-plugin-react-compiler: 1.0.0
   class-variance-authority: 0.7.1
   clsx: 2.1.1
   dotenv: 17.2.3
-  lefthook: 2.0.13
+  lefthook: 2.0.15
   lucide-react: 0.562.0
-  next: 16.1.1
+  next: 16.1.2
   postcss: 8.5.6
   prisma: 7.2.0
   react: 19.2.3
@@ -35,7 +35,7 @@ catalog:
   tailwindcss-animate: 1.0.7
   turbo: 2.7.4
   typescript: 5.9.3
-  workflow: 4.0.1-beta.44
+  workflow: 4.0.1-beta.47
   zod: 4.3.5
 
 onlyBuiltDependencies:
