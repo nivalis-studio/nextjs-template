@@ -1,6 +1,6 @@
 catalog:
-  '@ai-sdk/openai': 3.0.11
-  '@ai-sdk/react': 3.0.39
+  '@ai-sdk/openai': 3.0.12
+  '@ai-sdk/react': 3.0.40
   '@base-ui/react': 1.1.0
   '@biomejs/biome': 2.3.11
   '@commitlint/cli': 20.3.1
@@ -16,7 +16,7 @@ catalog:
   '@vercel/analytics': 1.6.1
   '@vercel/blob': 2.0.0
   '@vercel/config': 0.0.25
-  ai: 6.0.37
+  ai: 6.0.38
   babel-plugin-react-compiler: 1.0.0
   class-variance-authority: 0.7.1
   clsx: 2.1.1
@@ -35,7 +35,7 @@ catalog:
   tailwindcss-animate: 1.0.7
   turbo: 2.7.4
   typescript: 5.9.3
-  workflow: 4.0.1-beta.47
+  workflow: 4.0.1-beta.48
   zod: 4.3.5
 
 onlyBuiltDependencies:
