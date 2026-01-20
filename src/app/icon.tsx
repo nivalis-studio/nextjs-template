@@ -1,10 +1,17 @@
 import { ImageResponse } from 'next/og';
 
-export const size = { width: 32, height: 32 };
-export const contentType = 'image/png';
 export const runtime = 'edge';
 
-export default function Icon() {
+export function generateImageMetadata() {
+  return [
+    { id: '16', size: { width: 16, height: 16 }, contentType: 'image/png' },
+    { id: '32', size: { width: 32, height: 32 }, contentType: 'image/png' },
+    { id: '48', size: { width: 48, height: 48 }, contentType: 'image/png' },
+  ];
+}
+
+export default async function Icon({ id }: { id: Promise<string> }) {
+  const px = Number(await id);
   return new ImageResponse(
     <div
       style={{
@@ -15,13 +22,15 @@ export default function Icon() {
         justifyContent: 'center',
         background: '#ffffff',
         color: '#EF4A2A',
+        borderRadius: '50%',
       }}
     >
       <svg
-        {...size}
         aria-hidden='true'
         fill='none'
+        height={px}
         viewBox='0 0 384 384'
+        width={px}
         xmlns='http://www.w3.org/2000/svg'
       >
         <path
@@ -30,6 +39,6 @@ export default function Icon() {
         />
       </svg>
     </div>,
-    { ...size },
+    { width: px, height: px },
   );
 }
