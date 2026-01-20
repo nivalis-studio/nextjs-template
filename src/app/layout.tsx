@@ -1,14 +1,15 @@
 import '@/styles/globals.css';
 import { Analytics } from '@vercel/analytics/next';
 import { type PropsWithChildren, Suspense } from 'react';
+import { seo } from '@/constants/seo';
 import { fonts } from '@/fonts';
 import { cn } from '@/lib/classnames';
 import type { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata = {
-  title: { default: 'create next app', template: '%s | create next app' },
-  description: 'create next app',
-  metadataBase: new URL('https://google.com'),
+  title: { default: seo.title, template: `%s | ${seo.title}` },
+  description: seo.description,
+  metadataBase: new URL(seo.baseUrl),
 };
 
 export const viewport: Viewport = {
