@@ -7,8 +7,8 @@ settings:
 catalogs:
   default:
     '@ai-sdk/openai':
-      specifier: 3.0.25
-      version: 3.0.25
+      specifier: 3.0.26
+      version: 3.0.26
     '@base-ui/react':
       specifier: 1.1.0
       version: 1.1.0
@@ -46,8 +46,8 @@ catalogs:
       specifier: 0.0.28
       version: 0.0.28
     ai:
-      specifier: 6.0.71
-      version: 6.0.71
+      specifier: 6.0.77
+      version: 6.0.77
     babel-plugin-react-compiler:
       specifier: 1.0.0
       version: 1.0.0
@@ -58,8 +58,8 @@ catalogs:
       specifier: 2.1.1
       version: 2.1.1
     dotenv:
-      specifier: 17.2.3
-      version: 17.2.3
+      specifier: 17.2.4
+      version: 17.2.4
     lefthook:
       specifier: 2.1.0
       version: 2.1.0
@@ -100,8 +100,8 @@ catalogs:
       specifier: 5.9.3
       version: 5.9.3
     workflow:
-      specifier: 4.1.0-beta.52
-      version: 4.1.0-beta.52
+      specifier: 4.1.0-beta.53
+      version: 4.1.0-beta.53
     zod:
       specifier: 4.3.6
       version: 4.3.6
@@ -112,7 +112,7 @@ importers:
     dependencies:
       '@ai-sdk/openai':
         specifier: 'catalog:'
-        version: 3.0.25(zod@4.3.6)
+        version: 3.0.26(zod@4.3.6)
       '@base-ui/react':
         specifier: 'catalog:'
         version: 1.1.0(@types/react@19.2.13)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -124,7 +124,7 @@ importers:
         version: 0.0.28
       ai:
         specifier: 'catalog:'
-        version: 6.0.71(zod@4.3.6)
+        version: 6.0.77(zod@4.3.6)
       babel-plugin-react-compiler:
         specifier: 'catalog:'
         version: 1.0.0
@@ -136,7 +136,7 @@ importers:
         version: 2.1.1
       dotenv:
         specifier: 'catalog:'
-        version: 17.2.3
+        version: 17.2.4
       lucide-react:
         specifier: 'catalog:'
         version: 0.563.0(react@19.2.4)
@@ -166,7 +166,7 @@ importers:
         version: 2.8.3
       workflow:
         specifier: 'catalog:'
-        version: 4.1.0-beta.52(@aws-sdk/client-sts@3.971.0)(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.13(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(@opentelemetry/api@1.9.0)(@swc/cli@0.7.10(@swc/core@1.15.3)(chokidar@4.0.3))(@swc/core@1.15.3)(babel-plugin-react-compiler@1.0.0)(next@16.1.6(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)
+        version: 4.1.0-beta.53(@aws-sdk/client-sts@3.971.0)(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.13(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(@opentelemetry/api@1.9.0)(@swc/cli@0.7.10(@swc/core@1.15.3)(chokidar@4.0.3))(@swc/core@1.15.3)(babel-plugin-react-compiler@1.0.0)(next@16.1.6(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)
       zod:
         specifier: 'catalog:'
         version: 4.3.6
@@ -213,26 +213,26 @@ importers:
 
 packages:
 
-  '@ai-sdk/gateway@3.0.34':
-    resolution: {integrity: sha512-ZS1dWai5DINQOv3bpNi3ua9+yt3jnRaux3CwEr/ai9qETp6T+2wcpZyw+0jUHo1He/Lznw//AQh4zhdwHnTWrg==}
+  '@ai-sdk/gateway@3.0.39':
+    resolution: {integrity: sha512-SeCZBAdDNbWpVUXiYgOAqis22p5MEYfrjRw0hiBa5hM+7sDGYQpMinUjkM8kbPXMkY+AhKLrHleBl+SuqpzlgA==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/openai@3.0.25':
-    resolution: {integrity: sha512-DsaN46R98+D1W3lU3fKuPU3ofacboLaHlkAwxJPgJ8eup1AJHmPK1N1y10eJJbJcF6iby8Tf/vanoZxc9JPUfw==}
+  '@ai-sdk/openai@3.0.26':
+    resolution: {integrity: sha512-W/hiwxIfG29IO0Fob1HwWpFssMsNrxWoX8A7DwNGOtKArDBmJNuGzQeU/k0Fnh8WyvZEnfxkjO4oXkSXfVBayg==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/provider-utils@4.0.13':
-    resolution: {integrity: sha512-HHG72BN4d+OWTcq2NwTxOm/2qvk1duYsnhCDtsbYwn/h/4zeqURu1S0+Cn0nY2Ysq9a9HGKvrYuMn9bgFhR2Og==}
+  '@ai-sdk/provider-utils@4.0.14':
+    resolution: {integrity: sha512-7bzKd9lgiDeXM7O4U4nQ8iTxguAOkg8LZGD9AfDVZYjO5cKYRwBPwVjboFcVrxncRHu0tYxZtXZtiLKpG4pEng==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/provider@3.0.7':
-    resolution: {integrity: sha512-VkPLrutM6VdA924/mG8OS+5frbVTcu6e046D2bgDo00tehBANR1QBJ/mPcZ9tXMFOsVcm6SQArOregxePzTFPw==}
+  '@ai-sdk/provider@3.0.8':
+    resolution: {integrity: sha512-oGMAgGoQdBXbZqNG0Ze56CHjDZ1IDYOwGYxYjO5KLSlz5HiNQ9udIXsPZ61VWaHGZ5XW/jyjmr6t2xz2jGVwbQ==}
     engines: {node: '>=18'}
 
   '@alloc/quick-lru@5.2.0':
@@ -1665,22 +1665,22 @@ packages:
     resolution: {integrity: sha512-Fw28YZpRnA3cAHHDlkt7xQHiJ0fcL+NRcIqsocZQUSmbzeIKRpwttJjik5ZGanXP+vlA4SbTg+AbA3bP363l+w==}
     engines: {node: '>= 20'}
 
-  '@vercel/queue@0.0.0-alpha.34':
-    resolution: {integrity: sha512-xy5MNbsAoN9W1gtjNkKEg8SHEsnoEj3KbQQH7EaAtqJ0ZfdPo13XLOdqvAR5IO+4X5F0nyPENMVFilzzaSAYiA==}
+  '@vercel/queue@0.0.0-alpha.36':
+    resolution: {integrity: sha512-+0RWV/ljyK0lXH7LYUbTJ02UJLhPfZIvzMOjhMdD6tEm8o+VzJGJY9KwIljohtdfeep78cFUGuWvNmT+bi29Wg==}
     engines: {node: '>=20.0.0'}
 
-  '@workflow/astro@4.0.0-beta.26':
-    resolution: {integrity: sha512-YRlaze1FVFm5t0KSoQdhoPmREeRFW4OklfPDAkqu8mzxxjAGn62U9+qwLV4L6X0ILqYdgOhPCzzm7M5D6dVdBA==}
+  '@workflow/astro@4.0.0-beta.27':
+    resolution: {integrity: sha512-7Ug8YSUB1M9c95acjf2waareXv2KEWRx17L60Ynm9o36dtOe63C3Y37OQQKC93tE8rrFPSgH3+CLkl8c0Z/n6A==}
 
-  '@workflow/builders@4.0.1-beta.43':
-    resolution: {integrity: sha512-XyauVruCBmsltt/QM8wk/8U93BTSw968L3uCCUgAJ7CQ0sNKO6BgblBEpdJinK+YSI1FkXOFwuOy/uMOG7HNvg==}
+  '@workflow/builders@4.0.1-beta.44':
+    resolution: {integrity: sha512-8YfLbukOPJfSQrlaDqllL3mmiGpOCYxLYPDdm6SUde8mAIeWpYnZ18PYAKWm+yJuTLql5r8eU81xbL/J0p2IKw==}
 
-  '@workflow/cli@4.1.0-beta.52':
-    resolution: {integrity: sha512-hxmV+25QUUxZHNPyMuv9IBsqyQukSQMNLPoku1bDkucmDFD4qJ6a5S2vnD/4owKMejQ3jOXTrMshnFPmfQIr9A==}
+  '@workflow/cli@4.1.0-beta.53':
+    resolution: {integrity: sha512-s3+rug4tCoMO2i5RABk/4DpmD0Wfok8wTliPak1lzke58KVJDpzA9nubuZs5ED3c79Uuhnl98a7KGYbcnArBEw==}
     hasBin: true
 
-  '@workflow/core@4.1.0-beta.52':
-    resolution: {integrity: sha512-6/MwojovFtGeKLta4bPU+EfUwzVjCUVo1nAgKWHButGck8rCmc7taTOc456HReOTIO3r6vI2UwzSdEVZ52cJPg==}
+  '@workflow/core@4.1.0-beta.53':
+    resolution: {integrity: sha512-qcu/uwDPByFE9WCc6wk1l6+5aexf/wHr8l7WdG4FVXVS5ZetjDRyDgPHuIPt2oyzFXgifj/wpoIOO+Zy+ulYTQ==}
     peerDependencies:
       '@opentelemetry/api': '1'
     peerDependenciesMeta:
@@ -1690,8 +1690,8 @@ packages:
   '@workflow/errors@4.1.0-beta.14':
     resolution: {integrity: sha512-vc01pVxxhRZt9lpGkTuW2X+/KHYMOP4Gc42BiIrf/x6bz9oWPInTbfFW+YAPvstE4SF1gpyxMpb5r4yjg6LznA==}
 
-  '@workflow/nest@0.0.0-beta.1':
-    resolution: {integrity: sha512-We9AlJGN/BzzRg/AhSmKU2v4yPw97jbslvZZZTtKGuuA+yodSJd2oSDzibevhh9ynINSgOenvWgkrwTj7Mb1nw==}
+  '@workflow/nest@0.0.0-beta.2':
+    resolution: {integrity: sha512-gsx80vgL1jls8IWCMzhIcG9AvgBL1HsD91PQH66Ti2OwcHEcjw1CPm0bV3/L3rnFR6brLFHqEtPoQGfTPuShMg==}
     hasBin: true
     peerDependencies:
       '@nestjs/common': '>=10.0.0'
@@ -1699,31 +1699,31 @@ packages:
       '@swc/cli': '>=0.4.0'
       '@swc/core': '>=1.5.0'
 
-  '@workflow/next@4.0.1-beta.48':
-    resolution: {integrity: sha512-n+tb+77Bd1mn+ELVM7VrTB2JmZahgchbpL6mLPKLLXAHfE0YSsRXWPquduhV+ZcDyGtBEArogaRgIkH4pNVM1Q==}
+  '@workflow/next@4.0.1-beta.49':
+    resolution: {integrity: sha512-Nneig2Ofv/gS1VFhK18tXbm2m+yzIkSh4eo8oSdUW2FIC5KcQWrqC9C1yKq0KHYKZxpYGa1wed/BDOWJ3fdiAA==}
     peerDependencies:
       next: '>13'
     peerDependenciesMeta:
       next:
         optional: true
 
-  '@workflow/nitro@4.0.1-beta.47':
-    resolution: {integrity: sha512-57nfIKDb5nmHmHnVn1m58T10IYkjntQ+OPhd+pON5e1Phm1CZAKfHQVAaSijYzjQPhriscQVrwDgwyJ2TYc9AQ==}
+  '@workflow/nitro@4.0.1-beta.48':
+    resolution: {integrity: sha512-Lp5hx1CeOqv4nO4yiobDZ7MJoOZdNzeWYjiw/9hKPo+iXRZEvue9Xvbchl33A42TkcFZH5yBt77UZyN4wz1ksg==}
 
-  '@workflow/nuxt@4.0.1-beta.36':
-    resolution: {integrity: sha512-EhPh+bOX+9e4WA/Go8AQfu65Dgqs79IqbWxeM8xjM9HPb/6QlFNBXrpOqwqT5BpI3wpxiaeZisnmRXtji8U3Cg==}
+  '@workflow/nuxt@4.0.1-beta.37':
+    resolution: {integrity: sha512-XLlcxd+LE5iCfmTMK6m+n7O4yBkNNmmjgU7OVpEEGhFv9jP/G3ABD2kX9yfAOdVSzwlXknXm0anj/zCHWwRRKw==}
 
-  '@workflow/rollup@4.0.0-beta.9':
-    resolution: {integrity: sha512-AwsRmgCwqxsIxXcec7GXvFyp+RofR246OH6Cp8cn9au2UyhD+MiEEHmn3tJBnAr1SQnKkLWgiNh3hKYqQ9ZdxQ==}
+  '@workflow/rollup@4.0.0-beta.10':
+    resolution: {integrity: sha512-tQicRg4swWD5KfJA3gQL3yU3QcdZlD2SB5yLWHSNr1oQpRbom5f2s/FidwshLEvimYjwgFfK8PtDwFwklVNGTA==}
 
   '@workflow/serde@4.1.0-beta.2':
     resolution: {integrity: sha512-8kkeoQKLDaKXefjV5dbhBj2aErfKp1Mc4pb6tj8144cF+Em5SPbyMbyLCHp+BVrFfFVCBluCtMx+jjvaFVZGww==}
 
-  '@workflow/sveltekit@4.0.0-beta.41':
-    resolution: {integrity: sha512-d+UwUlfnt2oVMb7NHGdPGIEo5F2uYTv4vgjY+eC8JIS80CyHa6TXp80bP8+15DI3gofgWvnHw399DRUxyuNSoA==}
+  '@workflow/sveltekit@4.0.0-beta.42':
+    resolution: {integrity: sha512-F/RtdVAiUf1j0PpmMxmGkqqP+X77EcbOyhR0PdXhgD2lw+/DgEOSNCsY2zrd2088fYqTfGf5FAy+7dBLap/Z1g==}
 
-  '@workflow/swc-plugin@4.1.0-beta.15':
-    resolution: {integrity: sha512-cMx1QuE+sCkLadMOGQL/xSWfdecn/9Hk+DXyq8VRq4AWBT7EmFAjK13NNYYX9cYtiM45GcedvvXrsmruHW8/dg==}
+  '@workflow/swc-plugin@4.1.0-beta.16':
+    resolution: {integrity: sha512-zd8zIGvBOFs0LsphJ4T5N8pCujIT6s0cbishKfOQ/PN1UwSLoiO2tkX8pZY3mwOvBVWCYt0tEaFATWzqOLt8yg==}
     peerDependencies:
       '@swc/core': 1.15.3
 
@@ -1735,25 +1735,30 @@ packages:
   '@workflow/utils@4.1.0-beta.11':
     resolution: {integrity: sha512-4fIstKn3jSN7pyJzp8RZ4Rbrohpxa+mc3sKji7wDGnqzD9GnSbm3+WOhGAduvYZubsAHN7HmXrfZ96EPLXtu6g==}
 
-  '@workflow/vite@4.0.0-beta.2':
-    resolution: {integrity: sha512-EKtfw+ld0jF1sXkHQWIdfmn6f7ZzcPzeByXTYydBmSRoYWT7GPTwvBPhwYXatnu/tq/BJrxNYhg1cUVZ9VkNiw==}
+  '@workflow/vite@4.0.0-beta.3':
+    resolution: {integrity: sha512-CcU7paryACpiQoS1krgiCLZ1Q+Dhvl8gO0A2CSeZJovLjQuTWdKW4GBmo0LUVqMP4MI8L3R4WCikGi9Dgh9Tfg==}
 
-  '@workflow/web@4.1.0-beta.31':
-    resolution: {integrity: sha512-AfEEywptrwPvReELK1Qh/G6LrDeRqPMp26YpOg7+HmXHAfKtjSZ6BZ0qM5BVf67aKRyGclMrKJ3zECbBe6+7vA==}
+  '@workflow/web@4.1.0-beta.32':
+    resolution: {integrity: sha512-kMJqs7xy1IBzo+n1c+D2JTzAyDkoRV0qvtZ+SsMxVR2CUIQ1/1/eMlj/ortzisyCBHGAwXRx3QDq3t+1vhMM1w==}
 
-  '@workflow/world-local@4.1.0-beta.28':
-    resolution: {integrity: sha512-9kL6PG4oq4KYuRftcincUaf9Rkvsh9UIKI4UsdfufTiea7aYsAVBzWBZIyalsDmSoPy3M76YqmZK8eN9bPjtzw==}
+  '@workflow/world-local@4.1.0-beta.29':
+    resolution: {integrity: sha512-bkAi3IRJmdlIOftCCz5u7A3WKAX4mzVWkZy0Lzxpqk8lR08qlzu+RNej5j7cqDumDhud5oRQTpibAyFndYye7Q==}
     peerDependencies:
       '@opentelemetry/api': '1'
     peerDependenciesMeta:
       '@opentelemetry/api':
         optional: true
 
-  '@workflow/world-vercel@4.1.0-beta.29':
-    resolution: {integrity: sha512-5BYyFRgYYJMxoRDkRnp2YeP0X3+nkMD3/yWg3LkaIHaF7TTMYpXlxIOTEwZXccI3UEZJhNBLn5QW70+g09ieBQ==}
+  '@workflow/world-vercel@4.1.0-beta.30':
+    resolution: {integrity: sha512-yuT66wepkowLDIkXH/D14cDpo+/0wgLSnnfTFxFSZ1PNBb9lD4n079E3JADHXe0m1ncwKtDQcADDjrQo7iJhTA==}
+    peerDependencies:
+      '@opentelemetry/api': '1'
+    peerDependenciesMeta:
+      '@opentelemetry/api':
+        optional: true
 
-  '@workflow/world@4.1.0-beta.1':
-    resolution: {integrity: sha512-DM7dI8IHRHeqP9EnCe+z70TGX/TX4losuLc2uBPm8BPk3VNNI/AI7DSybPCD5WJREM4QNgdOeHUsJop1xQ5SiA==}
+  '@workflow/world@4.1.0-beta.2':
+    resolution: {integrity: sha512-fGFQu/J/HKOnSXj0jB8kCiIt/6fdPCqsMg2IRdUhfLyRev/ZTgcb1Ecd0o3+lAJxn7RAprJccGpDNanalctOIQ==}
     peerDependencies:
       zod: 4.1.11
 
@@ -1802,8 +1807,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  ai@6.0.71:
-    resolution: {integrity: sha512-33/Qq0BhEG+SabYeE7ZlLL3DCubUQo04C8E9UdEHqh2DJuGdtxMXG/TSMkO2uF+ZmlGJpD4UY5Wij9/qal298w==}
+  ai@6.0.77:
+    resolution: {integrity: sha512-tyyhrRpCRFVlivdNIFLK8cexSBB2jwTqO0z1qJQagk+UxZ+MW8h5V8xsvvb+xdKDY482Y8KAm0mr7TDnPKvvlw==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -2149,8 +2154,8 @@ packages:
     resolution: {integrity: sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==}
     engines: {node: '>=12'}
 
-  dotenv@17.2.3:
-    resolution: {integrity: sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w==}
+  dotenv@17.2.4:
+    resolution: {integrity: sha512-mudtfb4zRB4bVvdj0xRo+e6duH1csJRM8IukBqfTRvHotn9+LBXB8ynAidP9zHqoRC/fsllXgk4kCKlR21fIhw==}
     engines: {node: '>=12'}
 
   easy-table@1.2.0:
@@ -3329,8 +3334,8 @@ packages:
   wordwrap@1.0.0:
     resolution: {integrity: sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==}
 
-  workflow@4.1.0-beta.52:
-    resolution: {integrity: sha512-O0tIi7DfW41/fWjxA69CAYHG7olA2iilOfbPEpQ5gVLeS/S+4CIKI3PncEYBvSQ3H9lBfrCiDVooRDD99lDtYQ==}
+  workflow@4.1.0-beta.53:
+    resolution: {integrity: sha512-YveJbpz9hITSs4GQ2DaKxDBFn+c6oMSIOOAHV32jBZjcXqiy14xwseq7JVTDAIQR2rSYX7locrbpIpQV9WROTw==}
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': '1'
@@ -3389,27 +3394,27 @@ packages:
 
 snapshots:
 
-  '@ai-sdk/gateway@3.0.34(zod@4.3.6)':
+  '@ai-sdk/gateway@3.0.39(zod@4.3.6)':
     dependencies:
-      '@ai-sdk/provider': 3.0.7
-      '@ai-sdk/provider-utils': 4.0.13(zod@4.3.6)
+      '@ai-sdk/provider': 3.0.8
+      '@ai-sdk/provider-utils': 4.0.14(zod@4.3.6)
       '@vercel/oidc': 3.1.0
       zod: 4.3.6
 
-  '@ai-sdk/openai@3.0.25(zod@4.3.6)':
+  '@ai-sdk/openai@3.0.26(zod@4.3.6)':
     dependencies:
-      '@ai-sdk/provider': 3.0.7
-      '@ai-sdk/provider-utils': 4.0.13(zod@4.3.6)
+      '@ai-sdk/provider': 3.0.8
+      '@ai-sdk/provider-utils': 4.0.14(zod@4.3.6)
       zod: 4.3.6
 
-  '@ai-sdk/provider-utils@4.0.13(zod@4.3.6)':
+  '@ai-sdk/provider-utils@4.0.14(zod@4.3.6)':
     dependencies:
-      '@ai-sdk/provider': 3.0.7
+      '@ai-sdk/provider': 3.0.8
       '@standard-schema/spec': 1.1.0
       eventsource-parser: 3.0.6
       zod: 4.3.6
 
-  '@ai-sdk/provider@3.0.7':
+  '@ai-sdk/provider@3.0.8':
     dependencies:
       json-schema: 0.4.0
 
@@ -4936,18 +4941,18 @@ snapshots:
 
   '@vercel/oidc@3.1.0': {}
 
-  '@vercel/queue@0.0.0-alpha.34':
+  '@vercel/queue@0.0.0-alpha.36':
     dependencies:
       '@vercel/oidc': 3.1.0
       mixpart: 0.0.5-alpha.1
 
-  '@workflow/astro@4.0.0-beta.26(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)':
+  '@workflow/astro@4.0.0-beta.27(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)':
     dependencies:
       '@swc/core': 1.15.3
-      '@workflow/builders': 4.0.1-beta.43(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
-      '@workflow/rollup': 4.0.0-beta.9
-      '@workflow/swc-plugin': 4.1.0-beta.15(@swc/core@1.15.3)
-      '@workflow/vite': 4.0.0-beta.2
+      '@workflow/builders': 4.0.1-beta.44(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/rollup': 4.0.0-beta.10(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/swc-plugin': 4.1.0-beta.16(@swc/core@1.15.3)
+      '@workflow/vite': 4.0.0-beta.3(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
       exsolve: 1.0.8
       pathe: 2.0.3
     transitivePeerDependencies:
@@ -4956,12 +4961,12 @@ snapshots:
       - '@swc/helpers'
       - supports-color
 
-  '@workflow/builders@4.0.1-beta.43(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)':
+  '@workflow/builders@4.0.1-beta.44(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)':
     dependencies:
       '@swc/core': 1.15.3
-      '@workflow/core': 4.1.0-beta.52(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/core': 4.1.0-beta.53(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
       '@workflow/errors': 4.1.0-beta.14
-      '@workflow/swc-plugin': 4.1.0-beta.15(@swc/core@1.15.3)
+      '@workflow/swc-plugin': 4.1.0-beta.16(@swc/core@1.15.3)
       '@workflow/utils': 4.1.0-beta.11
       builtin-modules: 5.0.0
       chalk: 5.6.2
@@ -4976,20 +4981,20 @@ snapshots:
       - '@swc/helpers'
       - supports-color
 
-  '@workflow/cli@4.1.0-beta.52(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)':
+  '@workflow/cli@4.1.0-beta.53(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)':
     dependencies:
       '@oclif/core': 4.0.0(typescript@5.9.3)
       '@oclif/plugin-help': 6.2.31(typescript@5.9.3)
       '@swc/core': 1.15.3
-      '@workflow/builders': 4.0.1-beta.43(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
-      '@workflow/core': 4.1.0-beta.52(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/builders': 4.0.1-beta.44(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/core': 4.1.0-beta.53(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
       '@workflow/errors': 4.1.0-beta.14
-      '@workflow/swc-plugin': 4.1.0-beta.15(@swc/core@1.15.3)
+      '@workflow/swc-plugin': 4.1.0-beta.16(@swc/core@1.15.3)
       '@workflow/utils': 4.1.0-beta.11
-      '@workflow/web': 4.1.0-beta.31(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@workflow/world': 4.1.0-beta.1(zod@4.1.11)
-      '@workflow/world-local': 4.1.0-beta.28(@opentelemetry/api@1.9.0)
-      '@workflow/world-vercel': 4.1.0-beta.29
+      '@workflow/web': 4.1.0-beta.32(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@workflow/world': 4.1.0-beta.2(zod@4.1.11)
+      '@workflow/world-local': 4.1.0-beta.29(@opentelemetry/api@1.9.0)
+      '@workflow/world-vercel': 4.1.0-beta.30(@opentelemetry/api@1.9.0)
       boxen: 8.0.1
       builtin-modules: 5.0.0
       chalk: 5.6.2
@@ -5021,7 +5026,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@workflow/core@4.1.0-beta.52(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)':
+  '@workflow/core@4.1.0-beta.53(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)':
     dependencies:
       '@aws-sdk/credential-provider-web-identity': 3.609.0(@aws-sdk/client-sts@3.971.0)
       '@jridgewell/trace-mapping': 0.3.31
@@ -5031,9 +5036,9 @@ snapshots:
       '@workflow/errors': 4.1.0-beta.14
       '@workflow/serde': 4.1.0-beta.2
       '@workflow/utils': 4.1.0-beta.11
-      '@workflow/world': 4.1.0-beta.1(zod@4.1.11)
-      '@workflow/world-local': 4.1.0-beta.28(@opentelemetry/api@1.9.0)
-      '@workflow/world-vercel': 4.1.0-beta.29
+      '@workflow/world': 4.1.0-beta.2(zod@4.1.11)
+      '@workflow/world-local': 4.1.0-beta.29(@opentelemetry/api@1.9.0)
+      '@workflow/world-vercel': 4.1.0-beta.30(@opentelemetry/api@1.9.0)
       debug: 4.4.3(supports-color@8.1.1)
       devalue: 5.6.0
       ms: 2.1.3
@@ -5052,14 +5057,14 @@ snapshots:
       '@workflow/utils': 4.1.0-beta.11
       ms: 2.1.3
 
-  '@workflow/nest@0.0.0-beta.1(@aws-sdk/client-sts@3.971.0)(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.13(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(@opentelemetry/api@1.9.0)(@swc/cli@0.7.10(@swc/core@1.15.3)(chokidar@4.0.3))(@swc/core@1.15.3)':
+  '@workflow/nest@0.0.0-beta.2(@aws-sdk/client-sts@3.971.0)(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.13(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(@opentelemetry/api@1.9.0)(@swc/cli@0.7.10(@swc/core@1.15.3)(chokidar@4.0.3))(@swc/core@1.15.3)':
     dependencies:
       '@nestjs/common': 11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core': 11.1.13(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@swc/cli': 0.7.10(@swc/core@1.15.3)(chokidar@4.0.3)
       '@swc/core': 1.15.3
-      '@workflow/builders': 4.0.1-beta.43(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
-      '@workflow/swc-plugin': 4.1.0-beta.15(@swc/core@1.15.3)
+      '@workflow/builders': 4.0.1-beta.44(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/swc-plugin': 4.1.0-beta.16(@swc/core@1.15.3)
       pathe: 2.0.3
     transitivePeerDependencies:
       - '@aws-sdk/client-sts'
@@ -5067,12 +5072,12 @@ snapshots:
       - '@swc/helpers'
       - supports-color
 
-  '@workflow/next@4.0.1-beta.48(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)(next@16.1.6(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))':
+  '@workflow/next@4.0.1-beta.49(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)(next@16.1.6(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))':
     dependencies:
       '@swc/core': 1.15.3
-      '@workflow/builders': 4.0.1-beta.43(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
-      '@workflow/core': 4.1.0-beta.52(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
-      '@workflow/swc-plugin': 4.1.0-beta.15(@swc/core@1.15.3)
+      '@workflow/builders': 4.0.1-beta.44(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/core': 4.1.0-beta.53(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/swc-plugin': 4.1.0-beta.16(@swc/core@1.15.3)
       semver: 7.7.3
       watchpack: 2.4.4
     optionalDependencies:
@@ -5083,14 +5088,14 @@ snapshots:
       - '@swc/helpers'
       - supports-color
 
-  '@workflow/nitro@4.0.1-beta.47(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)':
+  '@workflow/nitro@4.0.1-beta.48(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)':
     dependencies:
       '@swc/core': 1.15.3
-      '@workflow/builders': 4.0.1-beta.43(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
-      '@workflow/core': 4.1.0-beta.52(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
-      '@workflow/rollup': 4.0.0-beta.9
-      '@workflow/swc-plugin': 4.1.0-beta.15(@swc/core@1.15.3)
-      '@workflow/vite': 4.0.0-beta.2
+      '@workflow/builders': 4.0.1-beta.44(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/core': 4.1.0-beta.53(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/rollup': 4.0.0-beta.10(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/swc-plugin': 4.1.0-beta.16(@swc/core@1.15.3)
+      '@workflow/vite': 4.0.0-beta.3(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
       exsolve: 1.0.7
       pathe: 2.0.3
     transitivePeerDependencies:
@@ -5099,10 +5104,10 @@ snapshots:
       - '@swc/helpers'
       - supports-color
 
-  '@workflow/nuxt@4.0.1-beta.36(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)':
+  '@workflow/nuxt@4.0.1-beta.37(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)':
     dependencies:
       '@nuxt/kit': 4.2.0
-      '@workflow/nitro': 4.0.1-beta.47(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/nitro': 4.0.1-beta.48(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
     transitivePeerDependencies:
       - '@aws-sdk/client-sts'
       - '@opentelemetry/api'
@@ -5110,23 +5115,27 @@ snapshots:
       - magicast
       - supports-color
 
-  '@workflow/rollup@4.0.0-beta.9':
+  '@workflow/rollup@4.0.0-beta.10(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)':
     dependencies:
       '@swc/core': 1.15.3
-      '@workflow/swc-plugin': 4.1.0-beta.15(@swc/core@1.15.3)
+      '@workflow/builders': 4.0.1-beta.44(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/swc-plugin': 4.1.0-beta.16(@swc/core@1.15.3)
       exsolve: 1.0.7
     transitivePeerDependencies:
+      - '@aws-sdk/client-sts'
+      - '@opentelemetry/api'
       - '@swc/helpers'
+      - supports-color
 
   '@workflow/serde@4.1.0-beta.2': {}
 
-  '@workflow/sveltekit@4.0.0-beta.41(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)':
+  '@workflow/sveltekit@4.0.0-beta.42(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)':
     dependencies:
       '@swc/core': 1.15.3
-      '@workflow/builders': 4.0.1-beta.43(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
-      '@workflow/rollup': 4.0.0-beta.9
-      '@workflow/swc-plugin': 4.1.0-beta.15(@swc/core@1.15.3)
-      '@workflow/vite': 4.0.0-beta.2
+      '@workflow/builders': 4.0.1-beta.44(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/rollup': 4.0.0-beta.10(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/swc-plugin': 4.1.0-beta.16(@swc/core@1.15.3)
+      '@workflow/vite': 4.0.0-beta.3(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
       exsolve: 1.0.8
       fs-extra: 11.3.3
       pathe: 2.0.3
@@ -5136,7 +5145,7 @@ snapshots:
       - '@swc/helpers'
       - supports-color
 
-  '@workflow/swc-plugin@4.1.0-beta.15(@swc/core@1.15.3)':
+  '@workflow/swc-plugin@4.1.0-beta.16(@swc/core@1.15.3)':
     dependencies:
       '@swc/core': 1.15.3
 
@@ -5148,9 +5157,16 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
-  '@workflow/vite@4.0.0-beta.2': {}
+  '@workflow/vite@4.0.0-beta.3(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)':
+    dependencies:
+      '@workflow/builders': 4.0.1-beta.44(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+    transitivePeerDependencies:
+      - '@aws-sdk/client-sts'
+      - '@opentelemetry/api'
+      - '@swc/helpers'
+      - supports-color
 
-  '@workflow/web@4.1.0-beta.31(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@workflow/web@4.1.0-beta.32(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       next: 16.0.10(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     transitivePeerDependencies:
@@ -5163,12 +5179,12 @@ snapshots:
       - react-dom
       - sass
 
-  '@workflow/world-local@4.1.0-beta.28(@opentelemetry/api@1.9.0)':
+  '@workflow/world-local@4.1.0-beta.29(@opentelemetry/api@1.9.0)':
     dependencies:
-      '@vercel/queue': 0.0.0-alpha.34
+      '@vercel/queue': 0.0.0-alpha.36
       '@workflow/errors': 4.1.0-beta.14
       '@workflow/utils': 4.1.0-beta.11
-      '@workflow/world': 4.1.0-beta.1(zod@4.1.11)
+      '@workflow/world': 4.1.0-beta.2(zod@4.1.11)
       async-sema: 3.1.1
       ulid: 3.0.1
       undici: 6.22.0
@@ -5176,16 +5192,18 @@ snapshots:
     optionalDependencies:
       '@opentelemetry/api': 1.9.0
 
-  '@workflow/world-vercel@4.1.0-beta.29':
+  '@workflow/world-vercel@4.1.0-beta.30(@opentelemetry/api@1.9.0)':
     dependencies:
       '@vercel/oidc': 3.0.5
-      '@vercel/queue': 0.0.0-alpha.34
+      '@vercel/queue': 0.0.0-alpha.36
       '@workflow/errors': 4.1.0-beta.14
-      '@workflow/world': 4.1.0-beta.1(zod@4.1.11)
+      '@workflow/world': 4.1.0-beta.2(zod@4.1.11)
       cbor-x: 1.6.0
       zod: 4.1.11
+    optionalDependencies:
+      '@opentelemetry/api': 1.9.0
 
-  '@workflow/world@4.1.0-beta.1(zod@4.1.11)':
+  '@workflow/world@4.1.0-beta.2(zod@4.1.11)':
     dependencies:
       zod: 4.1.11
 
@@ -5286,11 +5304,11 @@ snapshots:
 
   acorn@8.15.0: {}
 
-  ai@6.0.71(zod@4.3.6):
+  ai@6.0.77(zod@4.3.6):
     dependencies:
-      '@ai-sdk/gateway': 3.0.34(zod@4.3.6)
-      '@ai-sdk/provider': 3.0.7
-      '@ai-sdk/provider-utils': 4.0.13(zod@4.3.6)
+      '@ai-sdk/gateway': 3.0.39(zod@4.3.6)
+      '@ai-sdk/provider': 3.0.8
+      '@ai-sdk/provider-utils': 4.0.14(zod@4.3.6)
       '@opentelemetry/api': 1.9.0
       zod: 4.3.6
 
@@ -5401,7 +5419,7 @@ snapshots:
       chokidar: 5.0.0
       confbox: 0.2.2
       defu: 6.1.4
-      dotenv: 17.2.3
+      dotenv: 17.2.4
       exsolve: 1.0.8
       giget: 2.0.0
       jiti: 2.6.1
@@ -5601,7 +5619,7 @@ snapshots:
 
   dotenv@16.6.1: {}
 
-  dotenv@17.2.3: {}
+  dotenv@17.2.4: {}
 
   easy-table@1.2.0:
     dependencies:
@@ -6682,18 +6700,18 @@ snapshots:
 
   wordwrap@1.0.0: {}
 
-  workflow@4.1.0-beta.52(@aws-sdk/client-sts@3.971.0)(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.13(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(@opentelemetry/api@1.9.0)(@swc/cli@0.7.10(@swc/core@1.15.3)(chokidar@4.0.3))(@swc/core@1.15.3)(babel-plugin-react-compiler@1.0.0)(next@16.1.6(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3):
+  workflow@4.1.0-beta.53(@aws-sdk/client-sts@3.971.0)(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.13(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(@opentelemetry/api@1.9.0)(@swc/cli@0.7.10(@swc/core@1.15.3)(chokidar@4.0.3))(@swc/core@1.15.3)(babel-plugin-react-compiler@1.0.0)(next@16.1.6(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3):
     dependencies:
-      '@workflow/astro': 4.0.0-beta.26(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
-      '@workflow/cli': 4.1.0-beta.52(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)
-      '@workflow/core': 4.1.0-beta.52(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/astro': 4.0.0-beta.27(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/cli': 4.1.0-beta.53(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)
+      '@workflow/core': 4.1.0-beta.53(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
       '@workflow/errors': 4.1.0-beta.14
-      '@workflow/nest': 0.0.0-beta.1(@aws-sdk/client-sts@3.971.0)(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.13(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(@opentelemetry/api@1.9.0)(@swc/cli@0.7.10(@swc/core@1.15.3)(chokidar@4.0.3))(@swc/core@1.15.3)
-      '@workflow/next': 4.0.1-beta.48(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)(next@16.1.6(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))
-      '@workflow/nitro': 4.0.1-beta.47(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
-      '@workflow/nuxt': 4.0.1-beta.36(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
-      '@workflow/rollup': 4.0.0-beta.9
-      '@workflow/sveltekit': 4.0.0-beta.41(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/nest': 0.0.0-beta.2(@aws-sdk/client-sts@3.971.0)(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.13(@nestjs/common@11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(@opentelemetry/api@1.9.0)(@swc/cli@0.7.10(@swc/core@1.15.3)(chokidar@4.0.3))(@swc/core@1.15.3)
+      '@workflow/next': 4.0.1-beta.49(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)(next@16.1.6(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))
+      '@workflow/nitro': 4.0.1-beta.48(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/nuxt': 4.0.1-beta.37(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/rollup': 4.0.0-beta.10(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
+      '@workflow/sveltekit': 4.0.0-beta.42(@aws-sdk/client-sts@3.971.0)(@opentelemetry/api@1.9.0)
       '@workflow/typescript-plugin': 4.0.1-beta.4(typescript@5.9.3)
       ms: 2.1.3
     optionalDependencies:
