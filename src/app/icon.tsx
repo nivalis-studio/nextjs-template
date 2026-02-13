@@ -1,7 +1,5 @@
 import { ImageResponse } from 'next/og';
 
-export const runtime = 'edge';
-
 export function generateImageMetadata() {
   return [
     { id: '16', size: { width: 16, height: 16 }, contentType: 'image/png' },
