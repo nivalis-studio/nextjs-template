@@ -1,11 +1,11 @@
 catalog:
-  "@ai-sdk/openai": 3.0.28
-  "@ai-sdk/react": 3.0.87
+  "@ai-sdk/openai": 3.0.29
+  "@ai-sdk/react": 3.0.92
   "@base-ui/react": 1.2.0
-  "@biomejs/biome": 2.3.15
+  "@biomejs/biome": 2.4.2
   "@commitlint/cli": 20.4.1
   "@commitlint/config-conventional": 20.4.1
-  "@nivalis/biome-config": 2.3.14
+  "@nivalis/biome-config": 2.4.2
   "@prisma/adapter-neon": 7.4.0
   "@prisma/client": 7.4.0
   "@tailwindcss/postcss": 4.1.18
@@ -15,8 +15,8 @@ catalog:
   "@types/react-dom": 19.2.3
   "@vercel/analytics": 1.6.1
   "@vercel/blob": 2.2.0
-  "@vercel/config": 0.0.30
-  ai: 6.0.85
+  "@vercel/config": 0.0.31
+  ai: 6.0.90
   babel-plugin-react-compiler: 1.0.0
   class-variance-authority: 0.7.1
   clsx: 2.1.1
@@ -26,7 +26,7 @@ catalog:
   embla-carousel-react: 8.6.0
   input-otp: 1.4.2
   lefthook: 2.1.1
-  lucide-react: 0.564.0
+  lucide-react: 0.574.0
   next: 16.1.6
   next-themes: 0.4.6
   postcss: 8.5.6
@@ -34,17 +34,17 @@ catalog:
   react: 19.2.4
   react-day-picker: 9.13.2
   react-dom: 19.2.4
-  react-resizable-panels: 4.6.2
+  react-resizable-panels: 4.6.4
   recharts: 3.7.0
   schema-dts: 1.1.5
   server-only: 0.0.1
   sonner: 2.0.7
-  tailwind-merge: 3.4.0
+  tailwind-merge: 3.4.1
   tailwindcss: 4.1.18
-  turbo: 2.8.7
+  turbo: 2.8.9
   typescript: 5.9.3
   vaul: 1.1.2
-  workflow: 4.1.0-beta.56
+  workflow: 4.1.0-beta.57
   zod: 4.3.6
 
 onlyBuiltDependencies:
