@@ -16,8 +16,9 @@
 		"noUncheckedIndexedAccess": true,
 		"jsx": "react-jsx",
 		"incremental": true,
+		"types": ["node"],
 		"paths": {
-			"@/*": ["./*"]
+			"@/*": ["./src/*"]
 		},
 		"plugins": [
 			{
@@ -26,8 +27,7 @@
 			{
 				"name": "workflow"
 			}
-		],
-		"baseUrl": "./src"
+		]
 	},
 	"include": [
 		"next-env.d.ts",
