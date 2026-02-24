@@ -29,7 +29,6 @@ type MergedSafeParseReturn = ZodSafeParseResult<
   util.Extend<MergedInput, MergedOutput>
 >;
 
-/* eslint-disable-next-line import/no-mutable-exports */
 let env = null as unknown as MergedOutput;
 
 const isServer = typeof window === 'undefined';

@@ -1,8 +1,8 @@
 import { seo } from '@/constants/seo';
 import type { MetadataRoute } from 'next';
 
-const allowedPaths = ['/'];
-const disallowedPaths = ['/admin'];
+const allowedPaths: Array<string> = ['/'];
+const disallowedPaths: Array<string> = ['/admin'];
 
 export default function robots(): MetadataRoute.Robots {
   return {
