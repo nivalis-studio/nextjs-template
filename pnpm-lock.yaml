@@ -21,6 +21,9 @@ catalogs:
     '@commitlint/config-conventional':
       specifier: 20.4.2
       version: 20.4.2
+    '@effect/language-service':
+      specifier: 0.77.0
+      version: 0.77.0
     '@nivalis/biome-config':
       specifier: 2.4.4
       version: 2.4.4
@@ -180,6 +183,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: 'catalog:'
         version: 20.4.2
+      '@effect/language-service':
+        specifier: 'catalog:'
+        version: 0.77.0
       '@nivalis/biome-config':
         specifier: 'catalog:'
         version: 2.4.4(@biomejs/biome@2.4.4)
@@ -565,6 +571,10 @@ packages:
   '@commitlint/types@20.4.0':
     resolution: {integrity: sha512-aO5l99BQJ0X34ft8b0h7QFkQlqxC6e7ZPVmBKz13xM9O8obDaM1Cld4sQlJDXXU/VFuUzQ30mVtHjVz74TuStw==}
     engines: {node: '>=v18'}
+
+  '@effect/language-service@0.77.0':
+    resolution: {integrity: sha512-QP2bri8DdcK7Eo+SqFS2yNeD0Ch9kKHYxq2jeE9CaPpBknevCNFb3+hT6qSsPt2P6yOkhNP83KMy5Uk7DGBXlg==}
+    hasBin: true
 
   '@emnapi/runtime@1.8.1':
     resolution: {integrity: sha512-mehfKSMWjjNol8659Z8KxEMrdSJDDot5SXMq00dM8BN4o+CLNXQ0xH2V7EchNHV4RmbZLmmPdEaXZc5H2FXmDg==}
@@ -4256,6 +4266,8 @@ snapshots:
     dependencies:
       conventional-commits-parser: 6.2.1
       picocolors: 1.1.1
+
+  '@effect/language-service@0.77.0': {}
 
   '@emnapi/runtime@1.8.1':
     dependencies:

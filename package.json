@@ -43,6 +43,7 @@
 		"@biomejs/biome": "catalog:",
 		"@commitlint/cli": "catalog:",
 		"@commitlint/config-conventional": "catalog:",
+		"@effect/language-service": "catalog:",
 		"@nivalis/biome-config": "catalog:",
 		"@tailwindcss/postcss": "catalog:",
 		"@total-typescript/ts-reset": "catalog:",
