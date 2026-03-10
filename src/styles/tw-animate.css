@@ -1,3 +1,6 @@
+/* biome-ignore-all lint/suspicious/noDuplicateProperties: . */
+/* biome-ignore-all lint/suspicious/noDuplicateCustomProperties: . */
+
 /**
  * TailwindCSS v4.0 compatible replacement for `tailwindcss-animate`.
  *
