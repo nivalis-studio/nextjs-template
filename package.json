@@ -53,6 +53,7 @@
 		"lefthook": "catalog:",
 		"schema-dts": "catalog:",
 		"tailwindcss": "catalog:",
-		"typescript": "catalog:"
+		"typescript": "catalog:",
+		"taze": "catalog:"
 	}
 }
