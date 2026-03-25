@@ -48,7 +48,7 @@ catalog:
   tailwindcss: 4.2.2
   taze: 19.10.0
   turbo: 2.8.20
-  typescript: 6.0.2
+  typescript: 5.9.3
   vaul: 1.1.2
   workflow: 4.2.0-beta.72
   zod: 4.3.6

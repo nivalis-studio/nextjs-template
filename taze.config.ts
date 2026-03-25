@@ -12,6 +12,7 @@ export default defineConfig({
   mode: 'latest',
   packageMode: {
     '@types/node': 'minor',
+    'typescript': 'minor',
   },
   exclude: [],
   ignorePaths: [],
