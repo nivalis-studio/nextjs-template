@@ -16,7 +16,7 @@ catalog:
   "@types/react-dom": 19.2.3
   "@vercel/analytics": 2.0.1
   "@vercel/queue": 0.1.6
-  "@vercel/blob": 2.3.2
+  "@vercel/blob": 2.3.3
   "@vercel/config": 0.1.0
   ai: 6.0.143
   babel-plugin-react-compiler: 1.0.0
@@ -39,7 +39,7 @@ catalog:
   react: 19.2.4
   react-day-picker: 9.14.0
   react-dom: 19.2.4
-  react-resizable-panels: 4.8.0
+  react-resizable-panels: 4.9.0
   recharts: 3.8.1
   schema-dts: 2.0.0
   server-only: 0.0.1
