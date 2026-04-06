@@ -1,0 +1,17 @@
+name: Biome CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  biome:
+    uses: nivalis-studio/biome-config/.github/workflows/biome-insights-artifact.yaml@main
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+    with:
+      shared-config-version: "2.4.10"
