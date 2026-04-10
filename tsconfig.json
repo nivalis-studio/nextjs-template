@@ -2,7 +2,11 @@
 	"$schema": "https://json.schemastore.org/tsconfig",
 	"compilerOptions": {
 		"target": "ES2022",
-		"lib": ["es2022", "DOM", "DOM.Iterable"],
+		"lib": [
+			"es2022",
+			"DOM",
+			"DOM.Iterable"
+		],
 		"allowJs": true,
 		"skipLibCheck": true,
 		"strict": true,
@@ -16,9 +20,13 @@
 		"noUncheckedIndexedAccess": true,
 		"jsx": "react-jsx",
 		"incremental": true,
-		"types": ["node"],
+		"types": [
+			"node"
+		],
 		"paths": {
-			"@/*": ["./src/*"]
+			"@/*": [
+				"./src/*"
+			]
 		},
 		"plugins": [
 			{
@@ -36,5 +44,8 @@
 		".next/types/**/*.ts",
 		".next/dev/types/**/*.ts"
 	],
-	"exclude": ["node_modules", ".next"]
+	"exclude": [
+		"node_modules",
+		".next"
+	]
 }
