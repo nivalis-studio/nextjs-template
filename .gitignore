@@ -219,6 +219,7 @@ sketch
 ### Miscellaneous ###
 *.pem
 .worktrees
+.opencode
 
 ### Prisma ###
 /src/prisma/client/
