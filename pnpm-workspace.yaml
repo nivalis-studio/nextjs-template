@@ -1,6 +1,6 @@
 catalog:
   "@ai-sdk/openai": 3.0.53
-  "@ai-sdk/react": 3.0.166
+  "@ai-sdk/react": 3.0.170
   "@base-ui/react": 1.4.0
   "@biomejs/biome": 2.4.12
   "@commitlint/cli": 20.5.0
@@ -17,17 +17,17 @@ catalog:
   "@vercel/analytics": 2.0.1
   "@vercel/queue": 0.1.6
   "@vercel/blob": 2.3.3
-  "@vercel/config": 0.2.0
-  ai: 6.0.164
+  "@vercel/config": 0.2.1
+  ai: 6.0.168
   babel-plugin-react-compiler: 1.0.0
-  better-auth: 1.6.4
+  better-auth: 1.6.5
   chat: 4.26.0
   class-variance-authority: 0.7.1
   clsx: 2.1.1
   cmdk: 1.1.1
   date-fns: 4.1.0
   dotenv: 17.4.2
-  effect: 3.21.0
+  effect: 3.21.1
   embla-carousel-react: 8.6.0
   input-otp: 1.4.2
   lefthook: 2.1.6
@@ -50,7 +50,7 @@ catalog:
   turbo: 2.9.6
   typescript: 5.9.3
   vaul: 1.1.2
-  workflow: 4.2.2
+  workflow: 4.2.4
   zod: 4.3.6
 
 onlyBuiltDependencies:
