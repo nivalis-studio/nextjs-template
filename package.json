@@ -15,7 +15,8 @@
 		"lint": "biome check",
 		"lint:fix": "biome check --write",
 		"prepare": "lefthook install",
-		"ts": "next typegen && tsc --noEmit"
+		"ts": "next typegen && tsgo --noEmit",
+		"tsc": "next typegen && tsc --noEmit"
 	},
 	"dependencies": {
 		"@ai-sdk/openai": "catalog:",
@@ -50,6 +51,7 @@
 		"@types/node": "catalog:",
 		"@types/react": "catalog:",
 		"@types/react-dom": "catalog:",
+		"@typescript/native-preview": "catalog:",
 		"lefthook": "catalog:",
 		"schema-dts": "catalog:",
 		"tailwindcss": "catalog:",
