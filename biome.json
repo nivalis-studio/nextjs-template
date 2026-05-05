@@ -1,14 +1,4 @@
 {
-	"$schema": "https://biomejs.dev/schemas/2.4.13/schema.json",
-	"extends": ["@nivalis/biome-config"],
-	"linter": {
-		"rules": {
-			"nursery": {
-				"noReactNativeDeepImports": "off",
-				"noReactNativeLiteralColors": "off",
-				"noReactNativeRawText": "off",
-				"useReactNativePlatformComponents": "off"
-			}
-		}
-	}
+	"$schema": "https://biomejs.dev/schemas/2.4.14/schema.json",
+	"extends": ["@nivalis/biome-config"]
 }
