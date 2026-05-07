@@ -3,10 +3,10 @@
 	"type": "module",
 	"version": "0.1.0",
 	"private": true,
-	"packageManager": "pnpm@10.33.3",
+	"packageManager": "pnpm@11.0.8",
 	"engines": {
 		"node": "24.x",
-		"pnpm": "10.x"
+		"pnpm": "11.x"
 	},
 	"scripts": {
 		"dev": "NEXT_TELEMETRY_DISABLED=1 NODE_NO_WARNINGS=1 next dev",
