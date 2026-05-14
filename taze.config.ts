@@ -9,6 +9,7 @@ export default defineConfig({
   interactive: false,
   includeLocked: true,
   ignoreOtherWorkspaces: false,
+  maturityPeriod: 2,
   mode: 'latest',
   packageMode: {
     '@types/node': 'minor',

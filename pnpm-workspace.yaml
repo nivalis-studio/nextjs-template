@@ -1,3 +1,6 @@
+# shellEmulator: true
+trustPolicy: no-downgrade
+trustPolicyIgnoreAfter: 604800 # 7 days
 minimumReleaseAge: 2880
 
 allowBuilds:
@@ -10,12 +13,12 @@ allowBuilds:
 
 catalog:
   "@ai-sdk/openai": 3.0.63
-  "@ai-sdk/react": 3.0.179
+  "@ai-sdk/react": 3.0.184
   "@base-ui/react": 1.4.1
   "@biomejs/biome": 2.4.15
-  "@commitlint/cli": 21.0.0
-  "@commitlint/config-conventional": 21.0.0
-  "@effect/language-service": 0.85.1
+  "@commitlint/cli": 21.0.1
+  "@commitlint/config-conventional": 21.0.1
+  "@effect/language-service": 0.86.1
   "@nivalis/biome-config": 2.4.15
   "@prisma/adapter-neon": 7.8.0
   "@prisma/client": 7.8.0
@@ -24,14 +27,14 @@ catalog:
   "@types/node": 24.1.0
   "@types/react": 19.2.14
   "@types/react-dom": 19.2.3
-  "@typescript/native-preview": "7.0.0-dev.20260511.1"
+  "@typescript/native-preview": "7.0.0-dev.20260512.1"
   "@vercel/analytics": 2.0.1
-  "@vercel/queue": 0.1.6
+  "@vercel/queue": 0.1.7
   "@vercel/blob": 2.3.3
   "@vercel/config": 0.3.0
-  ai: 6.0.177
+  ai: 6.0.174
   babel-plugin-react-compiler: 1.0.0
-  better-auth: 1.6.10
+  better-auth: 1.6.11
   chat: 4.28.1
   class-variance-authority: 0.7.1
   clsx: 2.1.1
@@ -50,7 +53,7 @@ catalog:
   react: 19.2.6
   react-day-picker: 10.0.0
   react-dom: 19.2.6
-  react-resizable-panels: 4.11.0
+  react-resizable-panels: 4.11.1
   recharts: 3.8.1
   schema-dts: 2.0.0
   server-only: 0.0.1
@@ -63,21 +66,3 @@ catalog:
   vaul: 1.1.2
   workflow: 4.2.4
   zod: 4.4.3
-
-onlyBuiltDependencies:
-  - "@nestjs/core"
-  - "@parcel/watcher"
-  - "@prisma/client"
-  - "@prisma/engines"
-  - "@swc/core"
-  - "@tailwindcss/oxide"
-  - "@vercel/speed-insights"
-  - bufferutil
-  - cbor-extract
-  - esbuild
-  - lefthook
-  - msw
-  - prisma
-  - protobufjs
-  - puppeteer
-  - sharp
