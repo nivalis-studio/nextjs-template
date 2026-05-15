@@ -5,10 +5,9 @@
 	"tsx": true,
 	"tailwind": {
 		"config": "tailwind.config.ts",
-		"css": "src/styles/globals.css",
+		"css": "src/styles/theme.css",
 		"baseColor": "neutral",
-		"cssVariables": true,
-		"prefix": ""
+		"cssVariables": true
 	},
 	"iconLibrary": "lucide",
 	"aliases": {
@@ -20,6 +19,7 @@
 	},
 	"menuColor": "inverted",
 	"menuAccent": "bold",
+	"rtl": false,
 	"registries": {
 		"@nivalis": "https://ui.nivalis.studio/r/{name}.json",
 		"@coss": "https://coss.com/ui/r/{name}.json"
