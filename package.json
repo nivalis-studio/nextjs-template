@@ -47,6 +47,7 @@
 		"@effect/language-service": "catalog:",
 		"@nivalis/biome-config": "catalog:",
 		"@tailwindcss/postcss": "catalog:",
+		"@tailwindcss/typography": "catalog:",
 		"@total-typescript/ts-reset": "catalog:",
 		"@types/node": "catalog:",
 		"@types/react": "catalog:",
