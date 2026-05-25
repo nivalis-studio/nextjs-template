@@ -18,7 +18,11 @@ export const viewport: Viewport = {
 
 const Layout = ({ children }: PropsWithChildren) => {
   return (
-    <html className={cn('dark font-mono', fonts)} lang='en'>
+    <html
+      className={cn('dark font-mono', fonts)}
+      data-scroll-behavior='smooth'
+      lang='en'
+    >
       <body className='relative'>
         <div className='container relative isolate mx-auto flex min-h-svh flex-col'>
           <Suspense>{children}</Suspense>
