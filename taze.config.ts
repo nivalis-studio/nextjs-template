@@ -10,7 +10,7 @@ export default defineConfig({
   includeLocked: true,
   ignoreOtherWorkspaces: false,
   maturityPeriod: 2,
-  mode: 'latest',
+  mode: 'stable',
   packageMode: {
     '@types/node': 'minor',
     'typescript': 'minor',
