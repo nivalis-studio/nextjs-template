@@ -71,6 +71,17 @@
 					}
 				}
 			}
+		},
+		"tailwindcss-language-server": {
+			"settings": {
+				"experimental": {
+					"configFile": "src/styles/globals.css"
+				},
+				"includeLanguages": {
+					"typescript": "javascript",
+					"typescriptreact": "javascript"
+				}
+			}
 		}
 	}
 }
