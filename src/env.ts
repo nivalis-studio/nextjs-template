@@ -1,16 +1,32 @@
-import { z } from 'zod';
-import type { ZodSafeParseResult } from 'zod';
-import type { util } from 'zod/v4/core';
+// zod/mini named imports keep this module tree-shakable: importing the
+// aggregated `z` object retains all of zod core + locales (~250KB) in the
+// client bundle (env is imported by client components for NEXT_PUBLIC_* values)
+import {
+  _default,
+  object,
+  string,
+  treeifyError,
+  enum as zEnum,
+} from 'zod/mini';
+import type { output } from 'zod/mini';
 
 // WARN: when adding env variables here
 // ⚠️ don't forget to also put them in turbo.json
 
-const serverSchema = z.object({
-  NODE_ENV: z.enum(['development', 'production']).default('development'),
+const serverSchema = object({
+  NODE_ENV: _default(
+    zEnum(['development', 'test', 'production']),
+    'development',
+  ),
 });
 
-const clientSchema = z.object({
-  NEXT_PUBLIC_VERCEL_URL: z.string().optional().default(''),
+const clientSchema = object({
+  NEXT_PUBLIC_VERCEL_URL: _default(string(), ''),
+});
+
+const mergedSchema = object({
+  ...clientSchema.shape,
+  ...serverSchema.shape,
 });
 
 const processEnv = {
@@ -21,33 +37,19 @@ const processEnv = {
   NODE_ENV: process.env.NODE_ENV,
 };
 
-const mergedSchema = z.object({ ...clientSchema.shape, ...serverSchema.shape });
-
-type MergedInput = z.input<typeof mergedSchema>;
-type MergedOutput = z.infer<typeof mergedSchema>;
-type MergedSafeParseReturn = ZodSafeParseResult<
-  util.Extend<MergedInput, MergedOutput>
->;
-
-let env = null as unknown as MergedOutput;
-
 const isServer = typeof window === 'undefined';
 
-const parsed = (
-  isServer
-    ? mergedSchema.safeParse(processEnv) // on server we can validate all env vars
-    : clientSchema.safeParse(processEnv)
-) as MergedSafeParseReturn; // on client we can only validate the ones that are exposed
+// On the client only the NEXT_PUBLIC_* keys are validated and present at
+// runtime; server-only keys must never be read from client code.
+const parsed = (isServer ? mergedSchema : clientSchema).safeParse(processEnv);
 
 if (!parsed.success) {
   console.error(
     '❌ Invalid environment variables:',
-    z.treeifyError(parsed.error),
+    treeifyError(parsed.error),
   );
 
   throw new Error('Invalid environment variables');
 }
 
-env = parsed.data;
-
-export { env as ENV };
+export const ENV = parsed.data as output<typeof mergedSchema>;
