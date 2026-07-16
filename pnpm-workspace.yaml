@@ -72,56 +72,28 @@ catalog:
   zod: 4.4.3
 
 minimumReleaseAgeExclude:
-  - "@ai-sdk/gateway@3.0.133 || 3.0.143 || 3.0.149"
-  - "@ai-sdk/openai@3.0.73 || 3.0.80 || 3.0.84"
-  - "@ai-sdk/provider-utils@4.0.30 || 4.0.35 || 4.0.38"
-  - "@base-ui/react@1.6.0"
-  - "@base-ui/utils@0.3.1"
-  - "@vercel/config@0.5.3"
-  - ai@6.0.208 || 6.0.219 || 6.0.225
-  - lucide-react@1.21.0 || 1.23.0 || 1.24.0
-  - "@ai-sdk/provider@3.0.13 || 3.0.14"
-  - '@biomejs/biome@2.5.2 || 2.5.4'
-  - '@biomejs/cli-darwin-arm64@2.5.2 || 2.5.4'
-  - '@biomejs/cli-darwin-x64@2.5.2 || 2.5.4'
-  - '@biomejs/cli-linux-arm64-musl@2.5.2 || 2.5.4'
-  - '@biomejs/cli-linux-arm64@2.5.2 || 2.5.4'
-  - '@biomejs/cli-linux-x64-musl@2.5.2 || 2.5.4'
-  - '@biomejs/cli-linux-x64@2.5.2 || 2.5.4'
-  - '@biomejs/cli-win32-arm64@2.5.2 || 2.5.4'
-  - '@biomejs/cli-win32-x64@2.5.2 || 2.5.4'
-  - "@commitlint/cli@21.2.0"
-  - "@commitlint/config-conventional@21.2.0"
-  - "@commitlint/config-validator@21.2.0"
-  - "@commitlint/ensure@21.2.0"
-  - "@commitlint/format@21.2.0"
-  - "@commitlint/is-ignored@21.2.0"
-  - "@commitlint/lint@21.2.0"
-  - "@commitlint/load@21.2.0"
-  - "@commitlint/message@21.2.0"
-  - "@commitlint/parse@21.2.0"
-  - "@commitlint/read@21.2.0"
-  - "@commitlint/resolve-extends@21.2.0"
-  - "@commitlint/rules@21.2.0"
-  - "@commitlint/top-level@21.2.0"
-  - "@commitlint/types@21.2.0"
-  - "@effect/language-service@0.86.4 || 0.86.6"
-  - "@next/env@16.2.10"
-  - "@next/swc-darwin-arm64@16.2.10"
-  - "@next/swc-darwin-x64@16.2.10"
-  - "@next/swc-linux-arm64-gnu@16.2.10"
-  - "@next/swc-linux-arm64-musl@16.2.10"
-  - "@next/swc-linux-x64-gnu@16.2.10"
-  - "@next/swc-linux-x64-musl@16.2.10"
-  - "@next/swc-win32-arm64-msvc@16.2.10"
-  - "@next/swc-win32-x64-msvc@16.2.10"
-  - "@turbo/darwin-64@2.10.3 || 2.10.5"
-  - "@turbo/darwin-arm64@2.10.3 || 2.10.5"
-  - "@turbo/linux-64@2.10.3 || 2.10.5"
-  - "@turbo/linux-arm64@2.10.3 || 2.10.5"
-  - "@turbo/windows-64@2.10.3 || 2.10.5"
-  - "@turbo/windows-arm64@2.10.3 || 2.10.5"
-  - next@16.2.10
-  - turbo@2.10.3 || 2.10.5
-  - '@nivalis/biome-config@2.5.2 || 2.5.4'
+  - '@ai-sdk/gateway@3.0.149'
+  - '@ai-sdk/openai@3.0.84'
+  - '@ai-sdk/provider-utils@4.0.38'
+  - '@ai-sdk/provider@3.0.14'
+  - '@biomejs/biome@2.5.4'
+  - '@biomejs/cli-darwin-arm64@2.5.4'
+  - '@biomejs/cli-darwin-x64@2.5.4'
+  - '@biomejs/cli-linux-arm64-musl@2.5.4'
+  - '@biomejs/cli-linux-arm64@2.5.4'
+  - '@biomejs/cli-linux-x64-musl@2.5.4'
+  - '@biomejs/cli-linux-x64@2.5.4'
+  - '@biomejs/cli-win32-arm64@2.5.4'
+  - '@biomejs/cli-win32-x64@2.5.4'
+  - '@effect/language-service@0.86.6'
+  - '@nivalis/biome-config@2.5.4'
+  - '@turbo/darwin-64@2.10.5'
+  - '@turbo/darwin-arm64@2.10.5'
+  - '@turbo/linux-64@2.10.5'
+  - '@turbo/linux-arm64@2.10.5'
+  - '@turbo/windows-64@2.10.5'
+  - '@turbo/windows-arm64@2.10.5'
+  - ai@6.0.225
+  - lucide-react@1.24.0
   - postcss@8.5.19
+  - turbo@2.10.5
