@@ -31,7 +31,6 @@ catalog:
   "@types/node": 24.13.3
   "@types/react": 19.2.18
   "@types/react-dom": 19.2.4
-  "@typescript/native-preview": "7.0.0-dev.20260707.2"
   "@vercel/analytics": 2.0.1
   "@vercel/queue": 0.2.1
   "@vercel/blob": 2.8.0
@@ -66,7 +65,7 @@ catalog:
   tailwindcss: 4.3.3
   taze: 21.1.0
   turbo: 2.10.10
-  typescript: 5.9.3
+  typescript: 7.0.2
   vaul: 1.1.2
   workflow: 4.8.3
   zod: 4.4.3
