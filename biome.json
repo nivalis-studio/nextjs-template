@@ -1,12 +1,4 @@
 {
-	"$schema": "https://biomejs.dev/schemas/2.5.5/schema.json",
-	"extends": ["@nivalis/biome-config"],
-	"linter": {
-		"rules": {
-			"nursery": {
-				"noUndeclaredClasses": "off",
-				"noUnusedClasses": "off"
-			}
-		}
-	}
+	"$schema": "https://biomejs.dev/schemas/2.5.9/schema.json",
+	"extends": ["@nivalis/biome-config"]
 }
