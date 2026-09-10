@@ -15,48 +15,48 @@ allowBuilds:
   sharp: true
 
 catalog:
-  "@ai-sdk/openai": 4.0.42
-  "@ai-sdk/react": 4.0.69
-  "@base-ui/react": 1.7.0
-  "@biomejs/biome": 2.5.9
+  "@ai-sdk/openai": 4.0.63
+  "@ai-sdk/react": 4.0.98
+  "@base-ui/react": 1.8.0
+  "@biomejs/biome": 2.5.12
   "@commitlint/cli": 21.2.2
   "@commitlint/config-conventional": 21.2.2
-  "@effect/language-service": 0.86.6
-  "@nivalis/biome-config": 2.5.9
-  "@prisma/adapter-neon": 7.9.1
-  "@prisma/client": 7.9.1
+  "@effect/language-service": 0.87.2
+  "@nivalis/biome-config": 2.5.12
+  "@prisma/adapter-neon": 7.10.0
+  "@prisma/client": 7.10.0
   "@tailwindcss/postcss": 4.3.3
   "@tailwindcss/typography": 0.5.20
   "@total-typescript/ts-reset": 0.6.1
   "@types/node": 24.13.3
   "@types/react": 19.2.18
-  "@types/react-dom": 19.2.4
+  "@types/react-dom": 19.2.7
   "@vercel/analytics": 2.0.1
-  "@vercel/queue": 0.2.1
+  "@vercel/queue": 0.5.1
   "@vercel/blob": 2.8.0
-  "@vercel/config": 0.5.5
+  "@vercel/config": 0.7.0
   ai: 7.0.66
   babel-plugin-react-compiler: 1.0.0
-  better-auth: 1.7.0
-  chat: 4.38.1
+  better-auth: 1.7.3
+  chat: 4.40.0
   class-variance-authority: 0.7.1
   clsx: 2.1.1
   cmdk: 1.1.1
   date-fns: 4.4.0
   dotenv: 17.4.2
-  effect: 3.22.1
+  effect: 3.22.2
   embla-carousel-react: 8.6.0
   input-otp: 1.5.0
-  lefthook: 2.1.10
-  lucide-react: 1.32.0
-  next: 16.3.1
+  lefthook: 2.1.12
+  lucide-react: 1.43.0
+  next: 16.3.4
   next-themes: 0.4.6
-  postcss: 8.5.26
-  prisma: 7.9.1
+  postcss: 8.5.28
+  prisma: 7.10.0
   react: 19.2.8
   react-day-picker: 10.0.1
   react-dom: 19.2.8
-  react-resizable-panels: 4.12.3
+  react-resizable-panels: 4.12.4
   recharts: 3.10.1
   schema-dts: 2.0.0
   server-only: 0.0.1
@@ -64,67 +64,11 @@ catalog:
   tailwind-merge: 3.6.0
   tailwindcss: 4.3.3
   taze: 21.1.0
-  turbo: 2.10.10
+  turbo: 2.10.12
   typescript: 7.0.2
   vaul: 1.1.2
-  workflow: 4.8.3
-  zod: 4.4.3
+  workflow: 4.8.6
+  zod: 4.5.4
 
 minimumReleaseAgeExclude:
-  - '@ai-sdk/gateway@4.0.52'
-  - '@ai-sdk/openai@4.0.42'
-  - '@ai-sdk/provider-utils@5.0.27'
-  - '@biomejs/biome@2.5.9'
-  - '@biomejs/cli-darwin-arm64@2.5.9'
-  - '@biomejs/cli-darwin-x64@2.5.9'
-  - '@biomejs/cli-linux-arm64-musl@2.5.9'
-  - '@biomejs/cli-linux-arm64@2.5.9'
-  - '@biomejs/cli-linux-x64-musl@2.5.9'
-  - '@biomejs/cli-linux-x64@2.5.9'
-  - '@biomejs/cli-win32-arm64@2.5.9'
-  - '@biomejs/cli-win32-x64@2.5.9'
-  - '@commitlint/cli@21.2.2'
-  - '@commitlint/config-conventional@21.2.2'
-  - '@commitlint/format@21.2.2'
-  - '@commitlint/is-ignored@21.2.2'
-  - '@commitlint/lint@21.2.2'
-  - '@commitlint/load@21.2.2'
-  - '@commitlint/parse@21.2.2'
-  - '@commitlint/resolve-extends@21.2.2'
-  - '@commitlint/rules@21.2.2'
-  - '@next/env@16.3.1'
-  - '@next/swc-darwin-arm64@16.3.1'
-  - '@next/swc-darwin-x64@16.3.1'
-  - '@next/swc-linux-arm64-gnu@16.3.1'
-  - '@next/swc-linux-arm64-musl@16.3.1'
-  - '@next/swc-linux-x64-gnu@16.3.1'
-  - '@next/swc-linux-x64-musl@16.3.1'
-  - '@next/swc-win32-arm64-msvc@16.3.1'
-  - '@next/swc-win32-x64-msvc@16.3.1'
-  - '@nivalis/biome-config@2.5.9'
-  - '@sveltejs/load-config@0.2.3'
-  - '@turbo/darwin-64@2.10.10'
-  - '@turbo/darwin-arm64@2.10.10'
-  - '@turbo/linux-64@2.10.10'
-  - '@turbo/linux-arm64@2.10.10'
-  - '@turbo/windows-64@2.10.10'
-  - '@turbo/windows-arm64@2.10.10'
-  - '@workflow/astro@4.0.18'
-  - '@workflow/builders@4.1.8'
-  - '@workflow/cli@4.3.7'
-  - '@workflow/core@4.8.3'
-  - '@workflow/nest@4.0.19'
-  - '@workflow/next@4.1.7'
-  - '@workflow/nitro@4.1.9'
-  - '@workflow/nuxt@4.0.19'
-  - '@workflow/rollup@4.0.18'
-  - '@workflow/sveltekit@4.0.18'
-  - '@workflow/vite@4.0.18'
-  - '@workflow/web@4.1.19'
-  - ai@7.0.66
-  - lucide-react@1.32.0
-  - next@16.3.1
-  - pnpm-workspace-yaml@1.8.0
-  - taze@21.1.0
-  - turbo@2.10.10
-  - workflow@4.8.3
+  - "@nivalis/biome-config@2.5.12"
