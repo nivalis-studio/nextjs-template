@@ -20,7 +20,7 @@ const Layout = ({ children }: PropsWithChildren) => {
       lang='en'
     >
       <body className='relative'>
-        <div className='container relative isolate mx-auto flex min-h-svh flex-col'>
+        <div className='relative isolate container mx-auto flex min-h-svh flex-col'>
           {children}
         </div>
         <Analytics />
