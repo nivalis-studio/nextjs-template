@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   cacheComponents: true,
   typedRoutes: true,
+  partialPrefetching: true,
   images: {
     ...(isDev ? { dangerouslyAllowLocalIP: true } : {}),
     formats: ['image/avif', 'image/webp'],
